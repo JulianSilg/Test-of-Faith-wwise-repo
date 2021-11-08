@@ -1,0 +1,35 @@
+Event	ID	Name			Wwise Object Path	Notes
+	996773179	play_demonio			\Default Work Unit\play_demonio	
+	1978996311	play_orco			\Default Work Unit\play_orco	
+	2286841278	play_orco_attack			\Default Work Unit\play_orco_attack	
+	2737505656	play_orco_pasos			\Default Work Unit\play_orco_pasos	
+	2961047090	play_demonio_attack			\Default Work Unit\play_demonio_attack	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	23784958	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Dx\Breathe\Silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	24665574	Orco_Dx_attack-003	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Dx_attack-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Fx\Hit\Hit_voice\Orco_Dx_attack-003		147920
+	167962525	Orco_Dx_breathe_out-003	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Dx_breathe_out-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Dx\Breathe\Breathe_out\Orco_Dx_breathe_out-003		101260
+	241520495	Orco_Fx_Pasoderecha-002	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Fx_Pasoderecha-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Foley\Pasos\Pasos_der\Orco_Fx_Pasoderecha-002		154476
+	295466494	Demon_Dx_iddle2	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Demon_Dx_iddle2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Demonio\Dx\Idle\Demon_Dx_iddle2		870064
+	301788336	Orco_Dx_breathe-001	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Dx_breathe-001_D88E524B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Dx\Breathe\Breathe_in\Orco_Dx_breathe-001		85812
+	306534468	Orco_Fx_Pasoizquierda-001	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Fx_Pasoizquierda-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Foley\Pasos\Pasos_izq\Orco_Fx_Pasoizquierda-001		148452
+	308800202	Orco_Fx_golpe-002	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Fx_golpe-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Fx\Hit\Hit_arma\Orco_Fx_golpe-002		269044
+	341149171	Orco_Fx_Pasoizquierda-002	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Fx_Pasoizquierda-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Foley\Pasos\Pasos_izq\Orco_Fx_Pasoizquierda-002		148216
+	468469706	Orco_Fx_golpe-001	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Fx_golpe-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Fx\Hit\Hit_arma\Orco_Fx_golpe-001		268916
+	469552280	Orco_Dx_idle(con_efecto)_01	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Dx_idle(con_efecto)_93198855.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Dx\Idle\Orco_Dx_idle(con_efecto)_01		714648
+	516182575	Orco_Dx_idle(con_efecto)_03	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Dx_idle(con_efecto)_D48924DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Dx\Idle\Orco_Dx_idle(con_efecto)_03		546764
+	551509563	Orco_Dx_idle(con_efecto)	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Dx_idle(con_efecto)_C7A031E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Dx\Idle\Orco_Dx_idle(con_efecto)		766304
+	581925326	Orco_Dx_breathe_out-001	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Dx_breathe_out-001_EE227034.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Dx\Breathe\Breathe_out\Orco_Dx_breathe_out-001		65376
+	596316658	Orco_Dx_attack-002	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Dx_attack-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Fx\Hit\Hit_voice\Orco_Dx_attack-002		158000
+	647895068	Orco_Dx_attack-001	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Dx_attack-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Fx\Hit\Hit_voice\Orco_Dx_attack-001		164056
+	664099092	Orco_Fx_Pasoderecha-003	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Fx_Pasoderecha-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Foley\Pasos\Pasos_der\Orco_Fx_Pasoderecha-003		168568
+	693104905	Orco_Dx_breathe-003	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Dx_breathe-003_1FA64C6D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Dx\Breathe\Breathe_in\Orco_Dx_breathe-003		100868
+	715023574	Orco_Dx_idle(con_efecto)_02	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Dx_idle(con_efecto)_54CB8DC3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Dx\Idle\Orco_Dx_idle(con_efecto)_02		710344
+	920448570	Demon_Dx_iddle3	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Demon_Dx_iddle3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Demonio\Dx\Idle\Demon_Dx_iddle3		1256172
+	999109316	Orco_Fx_Pasoizquierda-003	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Fx_Pasoizquierda-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Foley\Pasos\Pasos_izq\Orco_Fx_Pasoizquierda-003		150028
+	1019961496	Demon_Dx_attackcombo	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Demon_Dx_attackcombo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Demonio\Fx\Attack\Demon_Dx_attackcombo		400328
+	1028601640	Demon_Dx_iddle1	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Demon_Dx_iddle1_BC723C37.wem		\Actor-Mixer Hierarchy\Default Work Unit\Demonio\Dx\Idle\Demon_Dx_iddle1		1375364
+	1044057678	Orco_Fx_Pasoderecha-001	C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\SFX\Orco_Fx_Pasoderecha-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Orco\Foley\Pasos\Pasos_der\Orco_Fx_Pasoderecha-001		135436
+

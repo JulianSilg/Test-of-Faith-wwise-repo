@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2591535158">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4072029455" Language="SFX" Hash="126644923">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="996773179" Name="play_demonio" ObjectPath="\Events\Default Work Unit\play_demonio" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="295466494" Language="SFX">
+							<ShortName>Demon_Dx_iddle2.wav</ShortName>
+							<Path>SFX\Demon_Dx_iddle2_10C4C929.wem</Path>
+						</File>
+						<File Id="920448570" Language="SFX">
+							<ShortName>Demon_Dx_iddle3.wav</ShortName>
+							<Path>SFX\Demon_Dx_iddle3_10C4C929.wem</Path>
+						</File>
+						<File Id="1028601640" Language="SFX">
+							<ShortName>Demon_Dx_iddle1.wav</ShortName>
+							<Path>SFX\Demon_Dx_iddle1_BC723C37.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2961047090" Name="play_demonio_attack" ObjectPath="\Events\Default Work Unit\play_demonio_attack" DurationType="OneShot" DurationMin="1.313284" DurationMax="2.948223">
+					<IncludedMemoryFiles>
+						<File Id="1019961496" Language="SFX">
+							<ShortName>Demon_Dx_attackcombo.wav</ShortName>
+							<Path>SFX\Demon_Dx_attackcombo_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1978996311" Name="play_orco" ObjectPath="\Events\Default Work Unit\play_orco" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="167962525" Language="SFX">
+							<ShortName>Orco_Dx_breathe_out-003.wav</ShortName>
+							<Path>SFX\Orco_Dx_breathe_out-003_10C4C929.wem</Path>
+						</File>
+						<File Id="301788336" Language="SFX">
+							<ShortName>Orco_Dx_breathe-001.wav</ShortName>
+							<Path>SFX\Orco_Dx_breathe-001_D88E524B.wem</Path>
+						</File>
+						<File Id="469552280" Language="SFX">
+							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
+							<Path>SFX\Orco_Dx_idle(con_efecto)_93198855.wem</Path>
+						</File>
+						<File Id="516182575" Language="SFX">
+							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
+							<Path>SFX\Orco_Dx_idle(con_efecto)_D48924DF.wem</Path>
+						</File>
+						<File Id="551509563" Language="SFX">
+							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
+							<Path>SFX\Orco_Dx_idle(con_efecto)_C7A031E0.wem</Path>
+						</File>
+						<File Id="581925326" Language="SFX">
+							<ShortName>Orco_Dx_breathe_out-001.wav</ShortName>
+							<Path>SFX\Orco_Dx_breathe_out-001_EE227034.wem</Path>
+						</File>
+						<File Id="693104905" Language="SFX">
+							<ShortName>Orco_Dx_breathe-003.wav</ShortName>
+							<Path>SFX\Orco_Dx_breathe-003_1FA64C6D.wem</Path>
+						</File>
+						<File Id="715023574" Language="SFX">
+							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
+							<Path>SFX\Orco_Dx_idle(con_efecto)_54CB8DC3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2286841278" Name="play_orco_attack" ObjectPath="\Events\Default Work Unit\play_orco_attack" DurationType="OneShot" DurationMin="1.400271" DurationMax="1.666005">
+					<IncludedMemoryFiles>
+						<File Id="24665574" Language="SFX">
+							<ShortName>Orco_Dx_attack-003.wav</ShortName>
+							<Path>SFX\Orco_Dx_attack-003_10C4C929.wem</Path>
+						</File>
+						<File Id="308800202" Language="SFX">
+							<ShortName>Orco_Fx_golpe-002.wav</ShortName>
+							<Path>SFX\Orco_Fx_golpe-002_10C4C929.wem</Path>
+						</File>
+						<File Id="468469706" Language="SFX">
+							<ShortName>Orco_Fx_golpe-001.wav</ShortName>
+							<Path>SFX\Orco_Fx_golpe-001_10C4C929.wem</Path>
+						</File>
+						<File Id="596316658" Language="SFX">
+							<ShortName>Orco_Dx_attack-002.wav</ShortName>
+							<Path>SFX\Orco_Dx_attack-002_10C4C929.wem</Path>
+						</File>
+						<File Id="647895068" Language="SFX">
+							<ShortName>Orco_Dx_attack-001.wav</ShortName>
+							<Path>SFX\Orco_Dx_attack-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2737505656" Name="play_orco_pasos" ObjectPath="\Events\Default Work Unit\play_orco_pasos" DurationType="OneShot" DurationMin="0.705063" DurationMax="0.877625">
+					<IncludedMemoryFiles>
+						<File Id="241520495" Language="SFX">
+							<ShortName>Orco_Fx_Pasoderecha-002.wav</ShortName>
+							<Path>SFX\Orco_Fx_Pasoderecha-002_10C4C929.wem</Path>
+						</File>
+						<File Id="306534468" Language="SFX">
+							<ShortName>Orco_Fx_Pasoizquierda-001.wav</ShortName>
+							<Path>SFX\Orco_Fx_Pasoizquierda-001_10C4C929.wem</Path>
+						</File>
+						<File Id="341149171" Language="SFX">
+							<ShortName>Orco_Fx_Pasoizquierda-002.wav</ShortName>
+							<Path>SFX\Orco_Fx_Pasoizquierda-002_10C4C929.wem</Path>
+						</File>
+						<File Id="664099092" Language="SFX">
+							<ShortName>Orco_Fx_Pasoderecha-003.wav</ShortName>
+							<Path>SFX\Orco_Fx_Pasoderecha-003_10C4C929.wem</Path>
+						</File>
+						<File Id="999109316" Language="SFX">
+							<ShortName>Orco_Fx_Pasoizquierda-003.wav</ShortName>
+							<Path>SFX\Orco_Fx_Pasoizquierda-003_10C4C929.wem</Path>
+						</File>
+						<File Id="1044057678" Language="SFX">
+							<ShortName>Orco_Fx_Pasoderecha-001.wav</ShortName>
+							<Path>SFX\Orco_Fx_Pasoderecha-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
