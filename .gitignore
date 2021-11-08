@@ -1,4 +1,5 @@
-.cache
-*.akd
-*.wsetting
-*validationcache
+/.cache
+/*_WwiseProject.*.validationcache
+/*_WwiseProject.*.wsettings
+/**/*.akd
+/*.prof
