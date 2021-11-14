@@ -1,87 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2591535158">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1514214986">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<StateGroups>
+				<StateGroup Id="3092587489" Name="pausa" ObjectPath="\States\Default Work Unit\pausa" GUID="{E11E6BEB-9721-49C2-B835-2BBBCBA255F1}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\pausa\None" GUID="{CA873F40-2F3D-4F92-859E-D5DEC1E62F6A}"/>
+						<State Id="582728953" Name="pausa_in" ObjectPath="\States\Default Work Unit\pausa\pausa_in" GUID="{FD595585-6768-4AC6-B343-5B522569FBF5}"/>
+						<State Id="2340700472" Name="pausa_out" ObjectPath="\States\Default Work Unit\pausa\pausa_out" GUID="{8710CE2F-7D3A-4AD6-B903-130BE05AA501}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX" Hash="126644923">
+		<SoundBank Id="4072029455" Language="SFX" Hash="1456058659">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="996773179" Name="play_demonio" ObjectPath="\Events\Default Work Unit\play_demonio" DurationType="Infinite">
+				<Event Id="2807435833" Name="aparece_loot" ObjectPath="\Events\Default Work Unit\Generales\aparece_loot" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2883369105" Name="boss_attack" ObjectPath="\Events\Default Work Unit\Boss\boss_attack" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1278916905" Name="boss_die" ObjectPath="\Events\Default Work Unit\Boss\boss_die" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3167145899" Name="boss_idle" ObjectPath="\Events\Default Work Unit\Boss\boss_idle" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1954486035" Name="boss_receivedamage" ObjectPath="\Events\Default Work Unit\Boss\boss_receivedamage" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1374521763" Name="boss_step" ObjectPath="\Events\Default Work Unit\Boss\boss_step" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="950189142" Name="clear_room" ObjectPath="\Events\Default Work Unit\Generales\clear_room" DurationType="OneShot" DurationMin="0.529167" DurationMax="0.529167">
 					<IncludedMemoryFiles>
-						<File Id="295466494" Language="SFX">
-							<ShortName>Demon_Dx_iddle2.wav</ShortName>
-							<Path>SFX\Demon_Dx_iddle2_10C4C929.wem</Path>
-						</File>
-						<File Id="920448570" Language="SFX">
-							<ShortName>Demon_Dx_iddle3.wav</ShortName>
-							<Path>SFX\Demon_Dx_iddle3_10C4C929.wem</Path>
-						</File>
-						<File Id="1028601640" Language="SFX">
-							<ShortName>Demon_Dx_iddle1.wav</ShortName>
-							<Path>SFX\Demon_Dx_iddle1_BC723C37.wem</Path>
+						<File Id="464954186" Language="SFX">
+							<ShortName>Fantasy_Game_Door_Open.wav</ShortName>
+							<Path>SFX\Fantasy_Game_Door_Open_7C59AFC5.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2961047090" Name="play_demonio_attack" ObjectPath="\Events\Default Work Unit\play_demonio_attack" DurationType="OneShot" DurationMin="1.313284" DurationMax="2.948223">
+				<Event Id="2409810141" Name="enter_room" ObjectPath="\Events\Default Work Unit\Generales\enter_room" DurationType="OneShot" DurationMin="0.443302" DurationMax="0.443302">
 					<IncludedMemoryFiles>
-						<File Id="1019961496" Language="SFX">
-							<ShortName>Demon_Dx_attackcombo.wav</ShortName>
-							<Path>SFX\Demon_Dx_attackcombo_10C4C929.wem</Path>
+						<File Id="283656089" Language="SFX">
+							<ShortName>Fantasy_Game_Door_Close.wav</ShortName>
+							<Path>SFX\Fantasy_Game_Door_Close_1C32699D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1978996311" Name="play_orco" ObjectPath="\Events\Default Work Unit\play_orco" DurationType="Infinite">
+				<Event Id="2161732876" Name="inicio_boss" ObjectPath="\Events\Default Work Unit\Generales\inicio_boss" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1373024549" Name="inicio_game" ObjectPath="\Events\Default Work Unit\Generales\inicio_game" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="167962525" Language="SFX">
-							<ShortName>Orco_Dx_breathe_out-003.wav</ShortName>
-							<Path>SFX\Orco_Dx_breathe_out-003_10C4C929.wem</Path>
+						<File Id="134931728" Language="SFX">
+							<ShortName>ambiente de prueba-001.wav</ShortName>
+							<Path>SFX\ambiente de prueba-001_724B7A89.wem</Path>
 						</File>
-						<File Id="301788336" Language="SFX">
-							<ShortName>Orco_Dx_breathe-001.wav</ShortName>
-							<Path>SFX\Orco_Dx_breathe-001_D88E524B.wem</Path>
+						<File Id="216775477" Language="SFX">
+							<ShortName>ambiente de prueba-001.wav</ShortName>
+							<Path>SFX\ambiente de prueba-001_687DACFC.wem</Path>
 						</File>
-						<File Id="469552280" Language="SFX">
-							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
-							<Path>SFX\Orco_Dx_idle(con_efecto)_93198855.wem</Path>
+						<File Id="616724559" Language="SFX">
+							<ShortName>ambiente de prueba-001.wav</ShortName>
+							<Path>SFX\ambiente de prueba-001_9C7F90A9.wem</Path>
 						</File>
-						<File Id="516182575" Language="SFX">
-							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
-							<Path>SFX\Orco_Dx_idle(con_efecto)_D48924DF.wem</Path>
+						<File Id="983234058" Language="SFX">
+							<ShortName>ambiente de prueba-001.wav</ShortName>
+							<Path>SFX\ambiente de prueba-001_0B43D22A.wem</Path>
 						</File>
-						<File Id="551509563" Language="SFX">
-							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
-							<Path>SFX\Orco_Dx_idle(con_efecto)_C7A031E0.wem</Path>
-						</File>
-						<File Id="581925326" Language="SFX">
-							<ShortName>Orco_Dx_breathe_out-001.wav</ShortName>
-							<Path>SFX\Orco_Dx_breathe_out-001_EE227034.wem</Path>
-						</File>
-						<File Id="693104905" Language="SFX">
-							<ShortName>Orco_Dx_breathe-003.wav</ShortName>
-							<Path>SFX\Orco_Dx_breathe-003_1FA64C6D.wem</Path>
-						</File>
-						<File Id="715023574" Language="SFX">
-							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
-							<Path>SFX\Orco_Dx_idle(con_efecto)_54CB8DC3.wem</Path>
+						<File Id="995591762" Language="SFX">
+							<ShortName>ambiente de prueba-001.wav</ShortName>
+							<Path>SFX\ambiente de prueba-001_42948971.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2286841278" Name="play_orco_attack" ObjectPath="\Events\Default Work Unit\play_orco_attack" DurationType="OneShot" DurationMin="1.400271" DurationMax="1.666005">
+				<Event Id="880580374" Name="inicio_menu" ObjectPath="\Events\Default Work Unit\Generales\inicio_menu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="194776941" Name="inicio_start" ObjectPath="\Events\Default Work Unit\Generales\inicio_start" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="652749204" Name="menu_ingame" ObjectPath="\Events\Default Work Unit\Generales\menu_ingame" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1662268395" Name="monk_dash" ObjectPath="\Events\Default Work Unit\Monje\monk_dash" DurationType="OneShot" DurationMin="2.200641" DurationMax="2.661778">
+					<IncludedMemoryFiles>
+						<File Id="44388307" Language="SFX">
+							<ShortName>Monje_dash-002.wav</ShortName>
+							<Path>SFX\Monje_dash-002_10C4C929.wem</Path>
+						</File>
+						<File Id="184516524" Language="SFX">
+							<ShortName>Monje_dash-001.wav</ShortName>
+							<Path>SFX\Monje_dash-001_10C4C929.wem</Path>
+						</File>
+						<File Id="740130391" Language="SFX">
+							<ShortName>Monje_dash-003.wav</ShortName>
+							<Path>SFX\Monje_dash-003_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3854436575" Name="monk_die" ObjectPath="\Events\Default Work Unit\Monje\monk_die" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3359398450" Name="monk_range" ObjectPath="\Events\Default Work Unit\Monje\monk_range" DurationType="OneShot" DurationMin="2.262273" DurationMax="2.918612">
+					<IncludedMemoryFiles>
+						<File Id="531468086" Language="SFX">
+							<ShortName>Monje_distance-001.wav</ShortName>
+							<Path>SFX\Monje_distance-001_10C4C929.wem</Path>
+						</File>
+						<File Id="587975474" Language="SFX">
+							<ShortName>Monje_distance-003.wav</ShortName>
+							<Path>SFX\Monje_distance-003_10C4C929.wem</Path>
+						</File>
+						<File Id="754885789" Language="SFX">
+							<ShortName>Monje_distance-002.wav</ShortName>
+							<Path>SFX\Monje_distance-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3123195961" Name="monk_receivedamage" ObjectPath="\Events\Default Work Unit\Monje\monk_receivedamage" DurationType="OneShot" DurationMin="1.109550" DurationMax="1.492475">
+					<IncludedMemoryFiles>
+						<File Id="82951474" Language="SFX">
+							<ShortName>Monje_damage-001.wav</ShortName>
+							<Path>SFX\Monje_damage-001_10C4C929.wem</Path>
+						</File>
+						<File Id="859675253" Language="SFX">
+							<ShortName>Monje_damage-002.wav</ShortName>
+							<Path>SFX\Monje_damage-002_10C4C929.wem</Path>
+						</File>
+						<File Id="905137215" Language="SFX">
+							<ShortName>Monje_damage-003.wav</ShortName>
+							<Path>SFX\Monje_damage-003_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4041908129" Name="monk_step" ObjectPath="\Events\Default Work Unit\Monje\monk_step" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="647670877" Name="monk_strikedos" ObjectPath="\Events\Default Work Unit\Monje\monk_strikedos" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="628083195" Name="monk_strikeuno" ObjectPath="\Events\Default Work Unit\Monje\monk_strikeuno" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="348796695" Name="ogre_attack" ObjectPath="\Events\Default Work Unit\Enemigos\ogre_attack" DurationType="OneShot" DurationMin="1.400271" DurationMax="1.666005">
 					<IncludedMemoryFiles>
 						<File Id="24665574" Language="SFX">
 							<ShortName>Orco_Dx_attack-003.wav</ShortName>
@@ -105,35 +156,221 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2737505656" Name="play_orco_pasos" ObjectPath="\Events\Default Work Unit\play_orco_pasos" DurationType="OneShot" DurationMin="0.705063" DurationMax="0.877625">
+				<Event Id="2141748771" Name="ogre_die" ObjectPath="\Events\Default Work Unit\Enemigos\ogre_die" DurationType="OneShot" DurationMin="0.729875" DurationMax="0.845958">
+					<IncludedMemoryFiles>
+						<File Id="413174192" Language="SFX">
+							<ShortName>Orco_Dx_Recibe_golpe-002.wav</ShortName>
+							<Path>SFX\Orco_Dx_Recibe_golpe-002_10C4C929.wem</Path>
+						</File>
+						<File Id="973310588" Language="SFX">
+							<ShortName>Orco_Dx_Recibe_golpe-001.wav</ShortName>
+							<Path>SFX\Orco_Dx_Recibe_golpe-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="455792825" Name="ogre_idle" ObjectPath="\Events\Default Work Unit\Enemigos\ogre_idle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="167962525" Language="SFX">
+							<ShortName>Orco_Dx_breathe_out-003.wav</ShortName>
+							<Path>SFX\Orco_Dx_breathe_out-003_10C4C929.wem</Path>
+						</File>
+						<File Id="301788336" Language="SFX">
+							<ShortName>Orco_Dx_breathe-001.wav</ShortName>
+							<Path>SFX\Orco_Dx_breathe-001_86650C2D.wem</Path>
+						</File>
+						<File Id="469552280" Language="SFX">
+							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
+							<Path>SFX\Orco_Dx_idle(con_efecto)_93198855.wem</Path>
+						</File>
+						<File Id="516182575" Language="SFX">
+							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
+							<Path>SFX\Orco_Dx_idle(con_efecto)_D48924DF.wem</Path>
+						</File>
+						<File Id="551509563" Language="SFX">
+							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
+							<Path>SFX\Orco_Dx_idle(con_efecto)_3FF6248B.wem</Path>
+						</File>
+						<File Id="581925326" Language="SFX">
+							<ShortName>Orco_Dx_breathe_out-001.wav</ShortName>
+							<Path>SFX\Orco_Dx_breathe_out-001_218A0318.wem</Path>
+						</File>
+						<File Id="693104905" Language="SFX">
+							<ShortName>Orco_Dx_breathe-003.wav</ShortName>
+							<Path>SFX\Orco_Dx_breathe-003_96444D29.wem</Path>
+						</File>
+						<File Id="715023574" Language="SFX">
+							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
+							<Path>SFX\Orco_Dx_idle(con_efecto)_54CB8DC3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="581405597" Name="ogre_receivedamage" ObjectPath="\Events\Default Work Unit\Enemigos\ogre_receivedamage" DurationType="OneShot" DurationMin="0.729875" DurationMax="0.845958">
+					<IncludedMemoryFiles>
+						<File Id="413174192" Language="SFX">
+							<ShortName>Orco_Dx_Recibe_golpe-002.wav</ShortName>
+							<Path>SFX\Orco_Dx_Recibe_golpe-002_10C4C929.wem</Path>
+						</File>
+						<File Id="973310588" Language="SFX">
+							<ShortName>Orco_Dx_Recibe_golpe-001.wav</ShortName>
+							<Path>SFX\Orco_Dx_Recibe_golpe-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="405030957" Name="ogre_step" ObjectPath="\Events\Default Work Unit\Enemigos\ogre_step" DurationType="OneShot" DurationMin="0.705063" DurationMax="0.877625">
 					<IncludedMemoryFiles>
 						<File Id="241520495" Language="SFX">
 							<ShortName>Orco_Fx_Pasoderecha-002.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoderecha-002_10C4C929.wem</Path>
+							<Path>SFX\Orco_Fx_Pasoderecha-002_5881689F.wem</Path>
 						</File>
 						<File Id="306534468" Language="SFX">
 							<ShortName>Orco_Fx_Pasoizquierda-001.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoizquierda-001_10C4C929.wem</Path>
+							<Path>SFX\Orco_Fx_Pasoizquierda-001_09FD2DE6.wem</Path>
 						</File>
 						<File Id="341149171" Language="SFX">
 							<ShortName>Orco_Fx_Pasoizquierda-002.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoizquierda-002_10C4C929.wem</Path>
+							<Path>SFX\Orco_Fx_Pasoizquierda-002_8DE64D6A.wem</Path>
 						</File>
 						<File Id="664099092" Language="SFX">
 							<ShortName>Orco_Fx_Pasoderecha-003.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoderecha-003_10C4C929.wem</Path>
+							<Path>SFX\Orco_Fx_Pasoderecha-003_36EFCB91.wem</Path>
 						</File>
 						<File Id="999109316" Language="SFX">
 							<ShortName>Orco_Fx_Pasoizquierda-003.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoizquierda-003_10C4C929.wem</Path>
+							<Path>SFX\Orco_Fx_Pasoizquierda-003_25EC416D.wem</Path>
 						</File>
 						<File Id="1044057678" Language="SFX">
 							<ShortName>Orco_Fx_Pasoderecha-001.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoderecha-001_10C4C929.wem</Path>
+							<Path>SFX\Orco_Fx_Pasoderecha-001_E45FCE47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="399764490" Name="open_loot" ObjectPath="\Events\Default Work Unit\Generales\open_loot" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="582728953" Name="pausa_in" ObjectPath="\Events\Default Work Unit\Generales\pausa_in" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="582728953" Name="pausa_in" ObjectPath="\States\Default Work Unit\pausa\pausa_in"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2340700472" Name="pausa_out" ObjectPath="\Events\Default Work Unit\Generales\pausa_out" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2340700472" Name="pausa_out" ObjectPath="\States\Default Work Unit\pausa\pausa_out"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3022924773" Name="ranger_attack" ObjectPath="\Events\Default Work Unit\Enemigos\ranger_attack" DurationType="OneShot" DurationMin="1.313284" DurationMax="2.948223">
+					<IncludedMemoryFiles>
+						<File Id="1019961496" Language="SFX">
+							<ShortName>Demon_Dx_attackcombo.wav</ShortName>
+							<Path>SFX\Demon_Dx_attackcombo_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2047528901" Name="ranger_die" ObjectPath="\Events\Default Work Unit\Enemigos\ranger_die" DurationType="OneShot" DurationMin="1.452083" DurationMax="1.893083">
+					<IncludedMemoryFiles>
+						<File Id="7638481" Language="SFX">
+							<ShortName>Demon_Dx_dead3.wav</ShortName>
+							<Path>SFX\Demon_Dx_dead3_10C4C929.wem</Path>
+						</File>
+						<File Id="313702848" Language="SFX">
+							<ShortName>Demon_Dx_dead2.wav</ShortName>
+							<Path>SFX\Demon_Dx_dead2_10C4C929.wem</Path>
+						</File>
+						<File Id="635388004" Language="SFX">
+							<ShortName>Demon_Dx_dead1.wav</ShortName>
+							<Path>SFX\Demon_Dx_dead1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3151110311" Name="ranger_idle" ObjectPath="\Events\Default Work Unit\Enemigos\ranger_idle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="295466494" Language="SFX">
+							<ShortName>Demon_Dx_iddle2.wav</ShortName>
+							<Path>SFX\Demon_Dx_iddle2_10C4C929.wem</Path>
+						</File>
+						<File Id="920448570" Language="SFX">
+							<ShortName>Demon_Dx_iddle3.wav</ShortName>
+							<Path>SFX\Demon_Dx_iddle3_10C4C929.wem</Path>
+						</File>
+						<File Id="1028601640" Language="SFX">
+							<ShortName>Demon_Dx_iddle1.wav</ShortName>
+							<Path>SFX\Demon_Dx_iddle1_BC723C37.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4048155386" Name="ranger_move" ObjectPath="\Events\Default Work Unit\Enemigos\ranger_move" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="422172478" Language="SFX">
+							<ShortName>Demon_Fx_movement.wav</ShortName>
+							<Path>SFX\Demon_Fx_movement_9E851DDF.wem</Path>
+						</File>
+						<File Id="618328925" Language="SFX">
+							<ShortName>Demon_Fx_movement.wav</ShortName>
+							<Path>SFX\Demon_Fx_movement_A9BA8499.wem</Path>
+						</File>
+						<File Id="629121119" Language="SFX">
+							<ShortName>Demon_Fx_movement.wav</ShortName>
+							<Path>SFX\Demon_Fx_movement_B67F7D87.wem</Path>
+						</File>
+						<File Id="654081637" Language="SFX">
+							<ShortName>Demon_Fx_movement.wav</ShortName>
+							<Path>SFX\Demon_Fx_movement_A30516B3.wem</Path>
+						</File>
+						<File Id="706253243" Language="SFX">
+							<ShortName>Demon_Fx_movement.wav</ShortName>
+							<Path>SFX\Demon_Fx_movement_81B2B9B1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1236462751" Name="ranger_receivedamage" ObjectPath="\Events\Default Work Unit\Enemigos\ranger_receivedamage" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="874211877" Name="rtpc_life" ObjectPath="\Events\Default Work Unit\RTPCs\rtpc_life" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2582501215" Name="rtpc_mastervolume" ObjectPath="\Events\Default Work Unit\RTPCs\rtpc_mastervolume" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2278053539" Name="ui_onclick" ObjectPath="\Events\Default Work Unit\Interfaz\ui_onclick" DurationType="OneShot" DurationMin="0.790518" DurationMax="0.837524">
+					<IncludedMemoryFiles>
+						<File Id="85627219" Language="SFX">
+							<ShortName>Fantasy_Game_Organic_Magic_Accept_Quest_Drum_Impact_1.wav</ShortName>
+							<Path>SFX\Fantasy_Game_Organic_Magic_Accept_Quest_Drum_Impact_1_80A0A889.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3533197240" Name="ui_onclick_card" ObjectPath="\Events\Default Work Unit\Interfaz\ui_onclick_card" DurationType="OneShot" DurationMin="1.170608" DurationMax="1.170608">
+					<IncludedMemoryFiles>
+						<File Id="348122560" Language="SFX">
+							<ShortName>Fantasy_Game_UI_Earth_Confirm.wav</ShortName>
+							<Path>SFX\Fantasy_Game_UI_Earth_Confirm_351C5EA9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3998673717" Name="ui_onclick_ingame" ObjectPath="\Events\Default Work Unit\Interfaz\ui_onclick_ingame" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000">
+					<IncludedMemoryFiles>
+						<File Id="503204631" Language="SFX">
+							<ShortName>Fantasy_Game_UI_Metal_Armory_Tab_1_Dry.wav</ShortName>
+							<Path>SFX\Fantasy_Game_UI_Metal_Armory_Tab_1_Dry_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="869697009" Name="ui_onenter" ObjectPath="\Events\Default Work Unit\Interfaz\ui_onenter" DurationType="OneShot" DurationMin="2.350941" DurationMax="2.350941">
+					<IncludedMemoryFiles>
+						<File Id="222668660" Language="SFX">
+							<ShortName>Fantasy_Game_Distant_Soft_Rumble_2.wav</ShortName>
+							<Path>SFX\Fantasy_Game_Distant_Soft_Rumble_2_878B9EF6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3940739283" Name="ui_onenter_ingame" ObjectPath="\Events\Default Work Unit\Interfaz\ui_onenter_ingame" DurationType="OneShot" DurationMin="0.145816" DurationMax="0.145816">
+					<IncludedMemoryFiles>
+						<File Id="707238800" Language="SFX">
+							<ShortName>Fantasy_Game_UI_Arcane_Select.wav</ShortName>
+							<Path>SFX\Fantasy_Game_UI_Arcane_Select_DFE3C6E6.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="582728953" Name="pausa_in" ObjectPath="\States\Default Work Unit\pausa\pausa_in" GUID="{FD595585-6768-4AC6-B343-5B522569FBF5}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2340700472" Name="pausa_out" ObjectPath="\States\Default Work Unit\pausa\pausa_out" GUID="{8710CE2F-7D3A-4AD6-B903-130BE05AA501}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
