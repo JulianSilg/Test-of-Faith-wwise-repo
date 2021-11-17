@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1514214986">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1853240681">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -25,7 +25,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX" Hash="1456058659">
+		<SoundBank Id="4072029455" Language="SFX" Hash="787582538">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
@@ -80,36 +80,36 @@
 				<Event Id="880580374" Name="inicio_menu" ObjectPath="\Events\Default Work Unit\Generales\inicio_menu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="194776941" Name="inicio_start" ObjectPath="\Events\Default Work Unit\Generales\inicio_start" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="652749204" Name="menu_ingame" ObjectPath="\Events\Default Work Unit\Generales\menu_ingame" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1662268395" Name="monk_dash" ObjectPath="\Events\Default Work Unit\Monje\monk_dash" DurationType="OneShot" DurationMin="2.200641" DurationMax="2.661778">
+				<Event Id="1662268395" Name="monk_dash" ObjectPath="\Events\Default Work Unit\Monje\monk_dash" DurationType="OneShot" DurationMin="1.487942" DurationMax="1.699142">
 					<IncludedMemoryFiles>
-						<File Id="44388307" Language="SFX">
-							<ShortName>Monje_dash-002.wav</ShortName>
-							<Path>SFX\Monje_dash-002_10C4C929.wem</Path>
+						<File Id="62939478" Language="SFX">
+							<ShortName>monk_dash2.wav</ShortName>
+							<Path>SFX\monk_dash2_10C4C929.wem</Path>
 						</File>
-						<File Id="184516524" Language="SFX">
-							<ShortName>Monje_dash-001.wav</ShortName>
-							<Path>SFX\Monje_dash-001_10C4C929.wem</Path>
+						<File Id="423832390" Language="SFX">
+							<ShortName>monk_dash.wav</ShortName>
+							<Path>SFX\monk_dash_10C4C929.wem</Path>
 						</File>
-						<File Id="740130391" Language="SFX">
-							<ShortName>Monje_dash-003.wav</ShortName>
-							<Path>SFX\Monje_dash-003_10C4C929.wem</Path>
+						<File Id="729802019" Language="SFX">
+							<ShortName>monk_dash3.wav</ShortName>
+							<Path>SFX\monk_dash3_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3854436575" Name="monk_die" ObjectPath="\Events\Default Work Unit\Monje\monk_die" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3359398450" Name="monk_range" ObjectPath="\Events\Default Work Unit\Monje\monk_range" DurationType="OneShot" DurationMin="2.262273" DurationMax="2.918612">
+				<Event Id="3359398450" Name="monk_range" ObjectPath="\Events\Default Work Unit\Monje\monk_range" DurationType="OneShot" DurationMin="1.622094" DurationMax="1.868269">
 					<IncludedMemoryFiles>
-						<File Id="531468086" Language="SFX">
-							<ShortName>Monje_distance-001.wav</ShortName>
-							<Path>SFX\Monje_distance-001_10C4C929.wem</Path>
+						<File Id="236766836" Language="SFX">
+							<ShortName>monk_distance-003.wav</ShortName>
+							<Path>SFX\monk_distance-003_10C4C929.wem</Path>
 						</File>
-						<File Id="587975474" Language="SFX">
-							<ShortName>Monje_distance-003.wav</ShortName>
-							<Path>SFX\Monje_distance-003_10C4C929.wem</Path>
+						<File Id="435700791" Language="SFX">
+							<ShortName>monk_distance-001.wav</ShortName>
+							<Path>SFX\monk_distance-001_10C4C929.wem</Path>
 						</File>
-						<File Id="754885789" Language="SFX">
-							<ShortName>Monje_distance-002.wav</ShortName>
-							<Path>SFX\Monje_distance-002_10C4C929.wem</Path>
+						<File Id="953620692" Language="SFX">
+							<ShortName>monk_distance-002.wav</ShortName>
+							<Path>SFX\monk_distance-002_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -129,9 +129,110 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4041908129" Name="monk_step" ObjectPath="\Events\Default Work Unit\Monje\monk_step" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="647670877" Name="monk_strikedos" ObjectPath="\Events\Default Work Unit\Monje\monk_strikedos" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="628083195" Name="monk_strikeuno" ObjectPath="\Events\Default Work Unit\Monje\monk_strikeuno" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4041908129" Name="monk_step" ObjectPath="\Events\Default Work Unit\Monje\monk_step" DurationType="OneShot" DurationMin="0.000891" DurationMax="1.001000">
+					<IncludedMemoryFiles>
+						<File Id="15648755" Language="SFX">
+							<ShortName>monk_stepleft_end3.wav</ShortName>
+							<Path>SFX\monk_stepleft_end3_10C4C929.wem</Path>
+						</File>
+						<File Id="68538077" Language="SFX">
+							<ShortName>monk_stepright_end2.wav</ShortName>
+							<Path>SFX\monk_stepright_end2_10C4C929.wem</Path>
+						</File>
+						<File Id="196463260" Language="SFX">
+							<ShortName>monk_stepright-002.wav</ShortName>
+							<Path>SFX\monk_stepright-002_10C4C929.wem</Path>
+						</File>
+						<File Id="274648691" Language="SFX">
+							<ShortName>monk_stepright-003.wav</ShortName>
+							<Path>SFX\monk_stepright-003_10C4C929.wem</Path>
+						</File>
+						<File Id="278355826" Language="SFX">
+							<ShortName>monk_stepleft-001.wav</ShortName>
+							<Path>SFX\monk_stepleft-001_10C4C929.wem</Path>
+						</File>
+						<File Id="306806010" Language="SFX">
+							<ShortName>monk_stepleft_end1.wav</ShortName>
+							<Path>SFX\monk_stepleft_end1_10C4C929.wem</Path>
+						</File>
+						<File Id="516920478" Language="SFX">
+							<ShortName>monk_stepright_end3.wav</ShortName>
+							<Path>SFX\monk_stepright_end3_10C4C929.wem</Path>
+						</File>
+						<File Id="638695364" Language="SFX">
+							<ShortName>monk_stepleft-003.wav</ShortName>
+							<Path>SFX\monk_stepleft-003_10C4C929.wem</Path>
+						</File>
+						<File Id="805644031" Language="SFX">
+							<ShortName>monk_stepleft_end2.wav</ShortName>
+							<Path>SFX\monk_stepleft_end2_10C4C929.wem</Path>
+						</File>
+						<File Id="846189855" Language="SFX">
+							<ShortName>monk_stepleft-002.wav</ShortName>
+							<Path>SFX\monk_stepleft-002_10C4C929.wem</Path>
+						</File>
+						<File Id="911376123" Language="SFX">
+							<ShortName>monk_stepright-001.wav</ShortName>
+							<Path>SFX\monk_stepright-001_10C4C929.wem</Path>
+						</File>
+						<File Id="970412414" Language="SFX">
+							<ShortName>monk_stepright_end1.wav</ShortName>
+							<Path>SFX\monk_stepright_end1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="647670877" Name="monk_strikedos" ObjectPath="\Events\Default Work Unit\Monje\monk_strikedos" DurationType="OneShot" DurationMin="1.522521" DurationMax="1.530574">
+					<IncludedMemoryFiles>
+						<File Id="359562049" Language="SFX">
+							<ShortName>monk_hitcomb_fx-002.wav</ShortName>
+							<Path>SFX\monk_hitcomb_fx-002_F791BC64.wem</Path>
+						</File>
+						<File Id="417203932" Language="SFX">
+							<ShortName>monk_hitcomb_dx-003.wav</ShortName>
+							<Path>SFX\monk_hitcomb_dx-003_10C4C929.wem</Path>
+						</File>
+						<File Id="436213662" Language="SFX">
+							<ShortName>monk_hitcomb_dx-001.wav</ShortName>
+							<Path>SFX\monk_hitcomb_dx-001_10C4C929.wem</Path>
+						</File>
+						<File Id="548884856" Language="SFX">
+							<ShortName>monk_hitcomb_fx-001.wav</ShortName>
+							<Path>SFX\monk_hitcomb_fx-001_DFE0EB60.wem</Path>
+						</File>
+						<File Id="740443677" Language="SFX">
+							<ShortName>monk_hitcomb_dx-002.wav</ShortName>
+							<Path>SFX\monk_hitcomb_dx-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="628083195" Name="monk_strikeuno" ObjectPath="\Events\Default Work Unit\Monje\monk_strikeuno" DurationType="OneShot" DurationMin="1.636115" DurationMax="1.860167">
+					<IncludedMemoryFiles>
+						<File Id="302502130" Language="SFX">
+							<ShortName>monk_hit_fx3.wav</ShortName>
+							<Path>SFX\monk_hit_fx3_5BAD82AF.wem</Path>
+						</File>
+						<File Id="315565834" Language="SFX">
+							<ShortName>monk_hit_dx-002.wav</ShortName>
+							<Path>SFX\monk_hit_dx-002_10C4C929.wem</Path>
+						</File>
+						<File Id="444980386" Language="SFX">
+							<ShortName>monk_hit_fx2.wav</ShortName>
+							<Path>SFX\monk_hit_fx2_73923DCC.wem</Path>
+						</File>
+						<File Id="597880745" Language="SFX">
+							<ShortName>monk_hit_fx.wav</ShortName>
+							<Path>SFX\monk_hit_fx_426F9387.wem</Path>
+						</File>
+						<File Id="698268410" Language="SFX">
+							<ShortName>monk_hit_dx-003.wav</ShortName>
+							<Path>SFX\monk_hit_dx-003_10C4C929.wem</Path>
+						</File>
+						<File Id="718042823" Language="SFX">
+							<ShortName>monk_hit_dx-001.wav</ShortName>
+							<Path>SFX\monk_hit_dx-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="348796695" Name="ogre_attack" ObjectPath="\Events\Default Work Unit\Enemigos\ogre_attack" DurationType="OneShot" DurationMin="1.400271" DurationMax="1.666005">
 					<IncludedMemoryFiles>
 						<File Id="24665574" Language="SFX">
@@ -216,7 +317,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="405030957" Name="ogre_step" ObjectPath="\Events\Default Work Unit\Enemigos\ogre_step" DurationType="OneShot" DurationMin="0.705063" DurationMax="0.877625">
+				<Event Id="405030957" Name="ogre_step" ObjectPath="\Events\Default Work Unit\Enemigos\ogre_step" DurationType="OneShot" DurationMin="0.000841" DurationMax="0.841737">
 					<IncludedMemoryFiles>
 						<File Id="241520495" Language="SFX">
 							<ShortName>Orco_Fx_Pasoderecha-002.wav</ShortName>

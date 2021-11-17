@@ -55,6 +55,23 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
+				<SoundcasterSession Name="aa" ID="{2C6ACB03-63CC-46CA-BCD7-B77FC1233580}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="monk_strikeuno" ID="{71334B7A-7FFE-4FBA-86C1-110E6A4EC9D8}" WorkUnitID="{C40F0D08-8C0F-4586-A235-738B6EA97F40}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="monk_strikedos" ID="{051946DF-47AC-4C8E-8F05-DEF7381BAFC8}" WorkUnitID="{C40F0D08-8C0F-4586-A235-738B6EA97F40}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{CA873F40-2F3D-4F92-859E-D5DEC1E62F6A}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>
