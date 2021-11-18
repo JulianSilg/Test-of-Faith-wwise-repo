@@ -3,3 +3,5 @@
 /*_Test-of-Faith-wwise-repo.*.wsettings
 /**/*.akd
 /*.prof
+*.validationcache
+*.wsettings
