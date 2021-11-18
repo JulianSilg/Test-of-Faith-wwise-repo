@@ -61,7 +61,7 @@
 								<Action Name="" ID="{DE6BCF53-2065-434D-BC98-AFA61284F194}" ShortID="741395289">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Batalla" ID="{1B5025D1-54B9-4373-AD4B-89A514B83CA7}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}"/>
+											<ObjectRef Name="Batalla Boss" ID="{1B5025D1-54B9-4373-AD4B-89A514B83CA7}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

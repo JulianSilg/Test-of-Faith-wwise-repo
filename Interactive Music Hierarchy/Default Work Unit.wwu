@@ -13,7 +13,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicPlaylistContainer Name="Music Playlist" ID="{E42DC017-F472-4C02-BAE6-5025FAE48B0F}" ShortID="534855229">
+						<MusicPlaylistContainer Name="Playlist Boss" ID="{E42DC017-F472-4C02-BAE6-5025FAE48B0F}" ShortID="534855229">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
@@ -23,7 +23,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="Batalla" ID="{1B5025D1-54B9-4373-AD4B-89A514B83CA7}" ShortID="1017846433">
+								<MusicSegment Name="Batalla Boss" ID="{1B5025D1-54B9-4373-AD4B-89A514B83CA7}" ShortID="1017846433">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="40258.0725623583"/>
 										<Property Name="Volume" Type="Real64">
@@ -263,10 +263,10 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Batalla" ID="{DB82155E-6036-4952-B4E8-44B2DD96D48B}"/>
+								<PathElementRef Name="Boss" ID="{69F8139F-6049-4633-B5C8-979F6A9BC54E}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="Music Playlist" ID="{E42DC017-F472-4C02-BAE6-5025FAE48B0F}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}" Platform="Linked"/>
+								<AudioNodeRef Name="Playlist Boss" ID="{E42DC017-F472-4C02-BAE6-5025FAE48B0F}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
