@@ -59,14 +59,14 @@
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
-				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{589153FC-DCCE-456D-965C-0AA920D59DFA}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{5AB2A39A-1958-4ABC-B1BB-8532E41BDFAD}"/>
+				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{C1DE9BAE-C169-4C8A-9751-D232FA438E75}"/>
 				<Property Name="ProjectExplorer\FirstVisible_5_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_7_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_9_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value="0SVQG7lUc0OtS4mlFLg8p5dMXDUktw9FmT9kPTVnXoQPLKWIbk1QTY27OdLvCVOJ"/>
+				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value="l0xcNSS3D0WZP2Q9NWdehNwh3CXyjM5NsHPw3MNhyDE="/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_16_1" Type="string" Value=""/>
@@ -78,7 +78,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="wEBZdZPp0kGUr/KVbLdJDXos6lL0gIRNg6K8x1FPa+sAQSN4RWmuT7EUaj26x+eI"/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="wEBZdZPp0kGUr/KVbLdJDW7+es0PMFJElEduLxBtvIxOyvfRP2ZfTJkbF7l2/aSVeizqUvSAhE2DorzHUU9r62qoFGGqP65OhnVJ25drP6oAQSN4RWmuT7EUaj26x+eI"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="SnLVFhl+XUSeFvQQNnv9qQgND8QPjIZFojVzi26pf0AfBdEnTLvqRYleUgjgdKU5aQKk5Wgd3UixhtJdv/OVeA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="91i9+EZaJ0Gxpb8rCUb5B+NwYT/hUk5DiZEe9eBAXZ4="/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
