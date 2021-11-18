@@ -58,10 +58,10 @@
 						</Event>
 						<Event Name="enter_room" ID="{FBA7D608-2A88-470A-BAF8-20922FAAB926}">
 							<ChildrenList>
-								<Action Name="" ID="{13CF15A8-EC3A-4755-B400-B2270F0A9C86}" ShortID="762204813">
+								<Action Name="" ID="{DE6BCF53-2065-434D-BC98-AFA61284F194}" ShortID="741395289">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="door_close" ID="{FF343195-E05B-4085-8DE4-E9134D125E30}" WorkUnitID="{E79F30B8-5A73-4D15-86F5-57710240CE9D}"/>
+											<ObjectRef Name="Batalla" ID="{1B5025D1-54B9-4373-AD4B-89A514B83CA7}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

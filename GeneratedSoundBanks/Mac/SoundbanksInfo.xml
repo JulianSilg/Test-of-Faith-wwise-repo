@@ -25,7 +25,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX" Hash="1180514473">
+		<SoundBank Id="4072029455" Language="SFX" Hash="1458167463">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
@@ -44,11 +44,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2409810141" Name="enter_room" ObjectPath="\Events\Default Work Unit\Generales\enter_room" DurationType="OneShot" DurationMin="0.443302" DurationMax="0.443302">
+				<Event Id="2409810141" Name="enter_room" ObjectPath="\Events\Default Work Unit\Generales\enter_room" DurationType="OneShot" DurationMin="40.258076" DurationMax="40.258076">
 					<IncludedMemoryFiles>
-						<File Id="283656089" Language="SFX">
-							<ShortName>Fantasy_Game_Door_Close.wav</ShortName>
-							<Path>SFX/Fantasy_Game_Door_Close_1C32699D.wem</Path>
+						<File Id="506922106" Language="SFX">
+							<ShortName>Battle Theme - Ver 1.wav</ShortName>
+							<Path>SFX/Battle Theme - Ver 1_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
