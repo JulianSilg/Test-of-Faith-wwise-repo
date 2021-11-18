@@ -382,7 +382,17 @@
 						<Event Name="boss_attack" ID="{BFF56C51-B21F-4C8F-85BA-404E20D31567}"/>
 						<Event Name="boss_receivedamage" ID="{0A481BC2-6F63-43B3-838E-3F429C4BF87E}"/>
 						<Event Name="boss_die" ID="{CC86E804-C26F-45B6-8C0C-784CDABE7B79}"/>
-						<Event Name="boss_step" ID="{BE306311-3259-452D-BADB-794F708CBA82}"/>
+						<Event Name="boss_step" ID="{BE306311-3259-452D-BADB-794F708CBA82}">
+							<ChildrenList>
+								<Action Name="" ID="{E08AE035-DEB5-4892-8215-56DF169DC452}" ShortID="248825357">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pasos" ID="{CEF85C07-009E-41B3-BC5B-D47C2C6A3CBE}" WorkUnitID="{78234100-6945-4FAE-B114-6A3DBAC7E788}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="RTPCs" ID="{60D97CED-7C53-4942-86A7-BEFEBA1CA27D}" ShortID="304006739">

@@ -1054,7 +1054,7 @@
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>300</Value>
+												<Value>560</Value>
 											</ValueList>
 										</Property>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>

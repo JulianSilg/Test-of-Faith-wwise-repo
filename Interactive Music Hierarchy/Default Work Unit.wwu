@@ -250,12 +250,12 @@
 					</TransitionList>
 					<ObjectLists/>
 					<ArgumentList>
-						<ArgumentRef Name="New_Switch_Group" ID="{F8BD58F7-5A46-4127-B1A5-BF2B0946F907}"/>
+						<ArgumentRef Name="switch_musica" ID="{F8BD58F7-5A46-4127-B1A5-BF2B0946F907}"/>
 					</ArgumentList>
 					<EntryList>
 						<Entry>
 							<Path>
-								<PathElementRef Name="New_Switch_Group" ID="{F8BD58F7-5A46-4127-B1A5-BF2B0946F907}"/>
+								<PathElementRef Name="switch_musica" ID="{F8BD58F7-5A46-4127-B1A5-BF2B0946F907}"/>
 							</Path>
 							<AudioNodeInfo>
 								<NoObject Platform="Linked"/>

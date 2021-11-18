@@ -1,3 +1,12 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2788974843	Boss_vida			\Default Work Unit\Boss_vida	
+
+Switch	ID	Name	Switch Group			Notes
+	1677318729	Baja	Boss_vida			
+	3142410971	Media	Boss_vida			
+	3201957283	Alta	Boss_vida			
+	3786252812	Cero	Boss_vida			
+
 State Group	ID	Name			Wwise Object Path	Notes
 	3092587489	pausa			\Default Work Unit\pausa	
 
