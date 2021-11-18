@@ -6,13 +6,23 @@
 				<Folder Name="Generales" ID="{E5A40269-1D68-48DD-B186-D25DBFF39578}" ShortID="231875973">
 					<ChildrenList>
 						<Event Name="inicio_menu" ID="{38902BF4-A85A-489E-B211-250DA22F618C}"/>
-						<Event Name="inicio_start" ID="{321F61EE-3034-48D7-A0B8-63CBE81BD04A}"/>
+						<Event Name="inicio_start" ID="{321F61EE-3034-48D7-A0B8-63CBE81BD04A}">
+							<ChildrenList>
+								<Action Name="" ID="{E28AB872-50B9-47B8-A478-0AE295B5EDC4}" ShortID="852089289">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pantalla Inicio" ID="{88A52C0F-4D6E-4D50-8DBB-39D2EF095389}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="inicio_game" ID="{7FFAB5A4-67EA-48D3-AD8C-F17EC405DB3C}">
 							<ChildrenList>
 								<Action Name="" ID="{7E9DC5BD-9581-4CC5-A542-3F4C2C258444}" ShortID="336653904">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="ambiente_prueba" ID="{638E83F4-26EE-4CCE-8E84-FB65E6E6D25D}" WorkUnitID="{E79F30B8-5A73-4D15-86F5-57710240CE9D}"/>
+											<ObjectRef Name="Pantalla Inicio" ID="{88A52C0F-4D6E-4D50-8DBB-39D2EF095389}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -71,7 +81,6 @@
 						<Event Name="aparece_loot" ID="{60417B41-BAB0-4E33-B1B9-248A7E67114C}"/>
 						<Event Name="open_loot" ID="{00958420-1BDF-441C-91A1-EA54C5946B94}"/>
 						<Event Name="menu_ingame" ID="{1FCF1C2B-5B2F-409F-B364-62C31B5124DC}"/>
-						<Event Name="inicio_boss" ID="{1CA5DA7C-5E02-4AD5-BA9F-8C8AA01CD79A}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Interfaz" ID="{51C87D6B-005C-4E44-8103-0E1D6288FC30}" ShortID="96525209">
@@ -382,6 +391,62 @@
 						<Event Name="rtpc_mastervolume" ID="{74C0E9AD-8CFE-4EE3-8DB1-90C721C57E9C}"/>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Set_Switch_Exploracion" ID="{944A4CD4-7965-476D-A148-C1A46D1B2C65}">
+					<ChildrenList>
+						<Action Name="" ID="{F496D42A-5D96-4DF9-A651-75E10A439997}" ShortID="464322544">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exploracion" ID="{FF1AAD71-8647-4738-A213-70196F4EE964}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_Switch_Batalla" ID="{568D6FF9-C677-48BE-8105-600851C2B37C}">
+					<ChildrenList>
+						<Action Name="" ID="{2B09B6CE-E422-4DC7-A026-C4AD3ED76E26}" ShortID="913284578">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Batalla" ID="{DB82155E-6036-4952-B4E8-44B2DD96D48B}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_Switch_Inicio" ID="{B65B93A0-A9B6-4201-8CC6-9AFFB30ED93E}">
+					<ChildrenList>
+						<Action Name="" ID="{50F86DF3-75E9-4456-AC63-51BE4B502C5E}" ShortID="605481640">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Inicio" ID="{7930A091-93E7-4B61-98D8-B8F78E856F7C}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_Switch_Boss" ID="{89BF2280-9884-4EF1-B62E-725E9AAB5648}">
+					<ChildrenList>
+						<Action Name="" ID="{BFB063ED-D69B-47F5-814C-3B206CDD494E}" ShortID="233832714">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss" ID="{69F8139F-6049-4633-B5C8-979F6A9BC54E}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
