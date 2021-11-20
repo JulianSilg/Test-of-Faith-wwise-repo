@@ -25,17 +25,44 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX" Hash="1370588215">
+		<SoundBank Id="4072029455" Language="SFX" Hash="2892424408">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2807435833" Name="aparece_loot" ObjectPath="\Events\Default Work Unit\Generales\aparece_loot" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2807435833" Name="aparece_loot" ObjectPath="\Events\Default Work Unit\Generales\aparece_loot" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="241286790" Language="SFX">
+							<ShortName>aparece loot_music.wav</ShortName>
+							<Path>SFX\aparece loot_music_880A6BF6.wem</Path>
+						</File>
+						<File Id="364815523" Language="SFX">
+							<ShortName>aparece loot_music.wav</ShortName>
+							<Path>SFX\aparece loot_music_190E1745.wem</Path>
+						</File>
+						<File Id="562460157" Language="SFX">
+							<ShortName>aparece loot-001.wav</ShortName>
+							<Path>SFX\aparece loot-001_10C4C929.wem</Path>
+						</File>
+						<File Id="652156168" Language="SFX">
+							<ShortName>aparece loot-002.wav</ShortName>
+							<Path>SFX\aparece loot-002_10C4C929.wem</Path>
+						</File>
+						<File Id="837298047" Language="SFX">
+							<ShortName>aparece loot_music.wav</ShortName>
+							<Path>SFX\aparece loot_music_3526E89D.wem</Path>
+						</File>
+						<File Id="972092062" Language="SFX">
+							<ShortName>aparece loot_music.wav</ShortName>
+							<Path>SFX\aparece loot_music_FA949A47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2883369105" Name="boss_attack" ObjectPath="\Events\Default Work Unit\Boss\boss_attack" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1278916905" Name="boss_die" ObjectPath="\Events\Default Work Unit\Boss\boss_die" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3167145899" Name="boss_idle" ObjectPath="\Events\Default Work Unit\Boss\boss_idle" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1954486035" Name="boss_receivedamage" ObjectPath="\Events\Default Work Unit\Boss\boss_receivedamage" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1374521763" Name="boss_step" ObjectPath="\Events\Default Work Unit\Boss\boss_step" DurationType="OneShot" DurationMin="0.001000" DurationMax="1.001000">
+				<Event Id="1374521763" Name="boss_step" ObjectPath="\Events\Default Work Unit\Boss\boss_step" DurationType="OneShot" DurationMin="0.001176" DurationMax="1.176723">
 					<IncludedMemoryFiles>
 						<File Id="241520495" Language="SFX">
 							<ShortName>Orco_Fx_Pasoderecha-002.wav</ShortName>
@@ -334,7 +361,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="405030957" Name="ogre_step" ObjectPath="\Events\Default Work Unit\Enemigos\ogre_step" DurationType="OneShot" DurationMin="0.000724" DurationMax="0.724358">
+				<Event Id="405030957" Name="ogre_step" ObjectPath="\Events\Default Work Unit\Enemigos\ogre_step" DurationType="OneShot" DurationMin="0.000707" DurationMax="0.707814">
 					<IncludedMemoryFiles>
 						<File Id="241520495" Language="SFX">
 							<ShortName>Orco_Fx_Pasoderecha-002.wav</ShortName>
@@ -362,7 +389,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="399764490" Name="open_loot" ObjectPath="\Events\Default Work Unit\Generales\open_loot" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="399764490" Name="open_loot" ObjectPath="\Events\Default Work Unit\Generales\open_loot" DurationType="OneShot" DurationMin="5.864375" DurationMax="5.884604">
+					<IncludedMemoryFiles>
+						<File Id="385097772" Language="SFX">
+							<ShortName>open_loot-001.wav</ShortName>
+							<Path>SFX\open_loot-001_10C4C929.wem</Path>
+						</File>
+						<File Id="464573880" Language="SFX">
+							<ShortName>open_loot-003.wav</ShortName>
+							<Path>SFX\open_loot-003_10C4C929.wem</Path>
+						</File>
+						<File Id="670274005" Language="SFX">
+							<ShortName>open_loot-002.wav</ShortName>
+							<Path>SFX\open_loot-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="582728953" Name="pausa_in" ObjectPath="\Events\Default Work Unit\Generales\pausa_in" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
 						<ActionSetStateEntry Id="582728953" Name="pausa_in" ObjectPath="\States\Default Work Unit\pausa\pausa_in"/>
@@ -460,11 +502,11 @@
 						<ActionSetSwitchEntry Id="2658298240" Name="Inicio" ObjectPath="\Switches\Default Work Unit\switch_musica\Inicio"/>
 					</ActionSetSwitch>
 				</Event>
-				<Event Id="2278053539" Name="ui_onclick" ObjectPath="\Events\Default Work Unit\Interfaz\ui_onclick" DurationType="OneShot" DurationMin="0.790518" DurationMax="0.837524">
+				<Event Id="2278053539" Name="ui_onclick" ObjectPath="\Events\Default Work Unit\Interfaz\ui_onclick" DurationType="OneShot" DurationMin="0.373949" DurationMax="0.373949">
 					<IncludedMemoryFiles>
 						<File Id="85627219" Language="SFX">
 							<ShortName>Fantasy_Game_Organic_Magic_Accept_Quest_Drum_Impact_1.wav</ShortName>
-							<Path>SFX\Fantasy_Game_Organic_Magic_Accept_Quest_Drum_Impact_1_80A0A889.wem</Path>
+							<Path>SFX\Fantasy_Game_Organic_Magic_Accept_Quest_Drum_Impact_1_D2BC3299.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -476,27 +518,31 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3998673717" Name="ui_onclick_ingame" ObjectPath="\Events\Default Work Unit\Interfaz\ui_onclick_ingame" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000">
+				<Event Id="3998673717" Name="ui_onclick_ingame" ObjectPath="\Events\Default Work Unit\Interfaz\ui_onclick_ingame" DurationType="OneShot" DurationMin="0.937110" DurationMax="0.937110">
 					<IncludedMemoryFiles>
-						<File Id="503204631" Language="SFX">
-							<ShortName>Fantasy_Game_UI_Metal_Armory_Tab_1_Dry.wav</ShortName>
-							<Path>SFX\Fantasy_Game_UI_Metal_Armory_Tab_1_Dry_10C4C929.wem</Path>
+						<File Id="631957275" Language="SFX">
+							<ShortName>UI_SoundPack11_Error_v3.wav</ShortName>
+							<Path>SFX\UI_SoundPack11_Error_v3_B8D9347D.wem</Path>
+						</File>
+						<File Id="1066794211" Language="SFX">
+							<ShortName>switch_on_042.wav</ShortName>
+							<Path>SFX\switch_on_042_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="869697009" Name="ui_onenter" ObjectPath="\Events\Default Work Unit\Interfaz\ui_onenter" DurationType="OneShot" DurationMin="2.350941" DurationMax="2.350941">
+				<Event Id="869697009" Name="ui_onenter" ObjectPath="\Events\Default Work Unit\Interfaz\ui_onenter" DurationType="OneShot" DurationMin="1.725735" DurationMax="1.725735">
 					<IncludedMemoryFiles>
 						<File Id="222668660" Language="SFX">
 							<ShortName>Fantasy_Game_Distant_Soft_Rumble_2.wav</ShortName>
-							<Path>SFX\Fantasy_Game_Distant_Soft_Rumble_2_878B9EF6.wem</Path>
+							<Path>SFX\Fantasy_Game_Distant_Soft_Rumble_2_120788BB.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3940739283" Name="ui_onenter_ingame" ObjectPath="\Events\Default Work Unit\Interfaz\ui_onenter_ingame" DurationType="OneShot" DurationMin="0.145816" DurationMax="0.145816">
+				<Event Id="3940739283" Name="ui_onenter_ingame" ObjectPath="\Events\Default Work Unit\Interfaz\ui_onenter_ingame" DurationType="OneShot" DurationMin="0.228029" DurationMax="0.228029">
 					<IncludedMemoryFiles>
-						<File Id="707238800" Language="SFX">
-							<ShortName>Fantasy_Game_UI_Arcane_Select.wav</ShortName>
-							<Path>SFX\Fantasy_Game_UI_Arcane_Select_DFE3C6E6.wem</Path>
+						<File Id="928770830" Language="SFX">
+							<ShortName>vintage_radio_button_006.wav</ShortName>
+							<Path>SFX\vintage_radio_button_006_A714D770.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

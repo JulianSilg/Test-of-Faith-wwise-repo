@@ -78,8 +78,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="aparece_loot" ID="{60417B41-BAB0-4E33-B1B9-248A7E67114C}"/>
-						<Event Name="open_loot" ID="{00958420-1BDF-441C-91A1-EA54C5946B94}"/>
+						<Event Name="aparece_loot" ID="{60417B41-BAB0-4E33-B1B9-248A7E67114C}">
+							<ChildrenList>
+								<Action Name="" ID="{7FCFB374-927D-4B04-B76D-2481023E17AD}" ShortID="306239943">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="aparece_loot" ID="{9E78E6B2-FFC8-4D77-BE93-0D58BB1EC68E}" WorkUnitID="{E79F30B8-5A73-4D15-86F5-57710240CE9D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="open_loot" ID="{00958420-1BDF-441C-91A1-EA54C5946B94}">
+							<ChildrenList>
+								<Action Name="" ID="{50550420-28B4-4792-A0D2-9C5E9F26D478}" ShortID="866780533">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="open_loot" ID="{6EED5FEC-972B-4B11-8BB1-8D3665BB5C8B}" WorkUnitID="{E79F30B8-5A73-4D15-86F5-57710240CE9D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="menu_ingame" ID="{1FCF1C2B-5B2F-409F-B364-62C31B5124DC}"/>
 					</ChildrenList>
 				</Folder>
@@ -123,7 +143,7 @@
 								<Action Name="" ID="{5D42A7A6-6F4D-4E21-A4AE-9DB47D2A8A58}" ShortID="275711891">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="ingame_error" ID="{4BEBE2D4-3F81-40F1-9B35-062A340EEF1D}" WorkUnitID="{6114A86A-3FAA-4EAE-8675-49DB976B3FAA}"/>
+											<ObjectRef Name="ingame_error" ID="{A8B3859B-DAD1-4C34-91B6-DC8E69A6A4FB}" WorkUnitID="{6114A86A-3FAA-4EAE-8675-49DB976B3FAA}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -260,7 +280,21 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="ranger_receivedamage" ID="{942C40D8-D99B-4D58-9871-AC16422041C0}"/>
+						<Event Name="ranger_receivedamage" ID="{942C40D8-D99B-4D58-9871-AC16422041C0}">
+							<ChildrenList>
+								<Action Name="" ID="{D84A5179-571D-4FB5-95D7-D6A57C679242}" ShortID="282520879">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Range" ID="{63E122AF-AB07-4F28-B39B-1A7B8241BB00}" WorkUnitID="{D1F7CA4E-663F-4C5F-991B-17B976FDA495}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="ranger_die" ID="{3A70A7F8-290D-4BE8-95B2-624EBDE26545}">
 							<ChildrenList>
 								<Action Name="" ID="{039DF21F-247F-4104-8F1E-9FF25EA9CCB8}" ShortID="253081276">
@@ -327,6 +361,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Damage" ID="{987C9EB2-7D1A-4C78-9ED1-99A06BDEB307}" WorkUnitID="{52EA2C7A-80F4-4D84-83A2-BCC7514F6BEB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1FFA4033-3BEF-41A6-984A-E9AAC43A6DC6}" ShortID="632433753">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Range" ID="{63E122AF-AB07-4F28-B39B-1A7B8241BB00}" WorkUnitID="{D1F7CA4E-663F-4C5F-991B-17B976FDA495}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

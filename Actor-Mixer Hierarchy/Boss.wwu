@@ -15,6 +15,11 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Pasos" ID="{CEF85C07-009E-41B3-BC5B-D47C2C6A3CBE}" ShortID="331247841">
 							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-280</Value>
+									</ValueList>
+								</Property>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -371,7 +376,7 @@
 									<ChildrenList>
 										<SourcePlugin Name="Wwise Silence" ID="{7EA96E29-C1E4-4975-8EA7-5EE48C4BD6C3}" ShortID="992953744" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
 											<PropertyList>
-												<Property Name="Length" Type="Real32" Value="4.001"/>
+												<Property Name="Length" Type="Real32" Value="3"/>
 												<Property Name="LengthMax" Type="Real32" Value="0.5"/>
 												<Property Name="LengthMin" Type="Real32" Value="-0.5"/>
 											</PropertyList>
@@ -493,7 +498,7 @@
 									<ChildrenList>
 										<SourcePlugin Name="Wwise Silence" ID="{6506D4D8-DAB7-4F1C-B694-38F84B65C44A}" ShortID="53529684" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
 											<PropertyList>
-												<Property Name="Length" Type="Real32" Value="4.001"/>
+												<Property Name="Length" Type="Real32" Value="3.001"/>
 												<Property Name="LengthMax" Type="Real32" Value="0.5"/>
 												<Property Name="LengthMin" Type="Real32" Value="-0.5"/>
 											</PropertyList>
@@ -577,9 +582,6 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Silence" ID="{FA6C062A-877B-4C10-A7CA-6154F9D4A5F5}" ShortID="309045545">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
@@ -591,7 +593,7 @@
 									<ChildrenList>
 										<SourcePlugin Name="Wwise Silence" ID="{93DC504F-F969-43FA-9803-EDC2679713CC}" ShortID="1051158243" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
 											<PropertyList>
-												<Property Name="Length" Type="Real32" Value="4.001"/>
+												<Property Name="Length" Type="Real32" Value="3.001"/>
 												<Property Name="LengthMax" Type="Real32" Value="0.5"/>
 												<Property Name="LengthMin" Type="Real32" Value="-0.5"/>
 											</PropertyList>

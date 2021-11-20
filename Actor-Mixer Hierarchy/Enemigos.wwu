@@ -1052,9 +1052,14 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Pasos" ID="{5530CC3E-FC14-4258-B73B-BA8598F43430}" ShortID="971032471">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>560</Value>
+												<Value>600</Value>
 											</ValueList>
 										</Property>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
