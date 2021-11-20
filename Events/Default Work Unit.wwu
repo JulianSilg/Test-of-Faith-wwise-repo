@@ -11,7 +11,7 @@
 								<Action Name="" ID="{E28AB872-50B9-47B8-A478-0AE295B5EDC4}" ShortID="852089289">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Pantalla Inicio" ID="{88A52C0F-4D6E-4D50-8DBB-39D2EF095389}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}"/>
+											<ObjectRef Name="Playlist Pantalla Inicio" ID="{88A52C0F-4D6E-4D50-8DBB-39D2EF095389}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -22,7 +22,7 @@
 								<Action Name="" ID="{7E9DC5BD-9581-4CC5-A542-3F4C2C258444}" ShortID="336653904">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Pantalla Inicio" ID="{88A52C0F-4D6E-4D50-8DBB-39D2EF095389}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}"/>
+											<ObjectRef Name="Playlist Pantalla Inicio" ID="{88A52C0F-4D6E-4D50-8DBB-39D2EF095389}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
