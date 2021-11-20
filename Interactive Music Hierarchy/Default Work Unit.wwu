@@ -15,6 +15,8 @@
 					<ChildrenList>
 						<MusicPlaylistContainer Name="Playlist Boss" ID="{E42DC017-F472-4C02-BAE6-5025FAE48B0F}" ShortID="534855229">
 							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="155"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -30,16 +32,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="Batalla Boss" ID="{1B5025D1-54B9-4373-AD4B-89A514B83CA7}" ShortID="1017846433">
+								<MusicSegment Name="Boss Theme" ID="{B31747EC-82EA-41CB-945F-5D0A762147BA}" ShortID="392470235">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="40258.0725623583"/>
+										<Property Name="EndPosition" Type="Real64" Value="51182.2092725856"/>
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
-										<Property Name="Tempo" Type="Real64" Value="155"/>
-										<Property Name="Volume" Type="Real64">
+										<Property Name="PlaybackSpeed" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>1.3</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Tempo" Type="Real64" Value="155"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -50,38 +52,27 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Boss Theme" ID="{7B8D8C93-E0EF-49B2-8D34-108692785F8B}" ShortID="1069194639">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>5</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
+										<MusicTrack Name="Boss Theme" ID="{C8A4F4BA-362E-41F5-84E5-DA19B71AE2FB}" ShortID="1027875322">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Battle Theme - Ver 1" ID="{36F0F253-B64F-496E-9889-1C9E2DCD77A5}">
+												<AudioFileSource Name="Battle Theme - v2_0" ID="{5CBDDD61-6CDF-4848-AE13-F135CFE177B4}">
 													<Language>SFX</Language>
-													<AudioFile>Battle Theme - Ver 1.wav</AudioFile>
+													<AudioFile>Battle Theme - v2.0.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="506922106"/>
+														<MediaID ID="906433888"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{6C10A104-8E14-4FDA-AEEF-6F9FA69A4F36}">
+												<MusicTransition Name="Root" ID="{F66DC505-ED3D-4125-9797-D3DEC5559729}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ChildrenList>
-														<MusicTransition Name="Transition" ID="{9884DAB1-5232-4381-8B15-DC0AC0A3CA19}">
-															<TransitionInfo/>
-														</MusicTransition>
-													</ChildrenList>
+													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -89,18 +80,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{E44B7756-3520-4C9F-B2D4-3FDF51CCAE6F}">
+															<MusicTrackSequence Name="" ID="{111EA3CD-D5C8-4BEF-AFDA-7FAA388D7C29}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Battle Theme - Ver 1" ID="{946D2336-7AD0-49C8-8D59-C0888D2274CB}">
+																				<MusicClip Name="Battle Theme - v2_0" ID="{7F6B559C-CC4F-41BF-A0F4-0CA5C763FEAB}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="40258.0725623583"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Battle Theme - Ver 1" ID="{36F0F253-B64F-496E-9889-1C9E2DCD77A5}"/>
+																					<AudioSourceRef Name="Battle Theme - v2_0" ID="{5CBDDD61-6CDF-4848-AE13-F135CFE177B4}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -117,15 +108,19 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{F4FE5D98-D9E3-483C-B6F6-A742D519E201}"/>
+													<MusicCue Name="Entry Cue" ID="{ACE1E051-02EB-4C50-ADD2-2D0582D0B723}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="9204.89554783723"/>
+														</PropertyList>
+													</MusicCue>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{BE9FEE04-5825-458C-97D0-595B0D535EEA}">
+													<MusicCue Name="Exit Cue" ID="{FAB02283-C04F-4614-AA6A-F2B75B0F8405}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="40258.0725623583"/>
+															<Property Name="TimeMs" Type="Real64" Value="40172.6374833211"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -154,11 +149,11 @@
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{20A62223-F0B9-4DE5-9DDD-6CD3876E84D1}" ShortID="1010459027">
+										<MusicPlaylistItem Name="" ID="{5B616AA2-7FD4-401B-92E6-C356B9480375}" ShortID="354242705">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="Batalla Boss" ID="{1B5025D1-54B9-4373-AD4B-89A514B83CA7}"/>
+											<SegmentRef Name="Boss Theme" ID="{B31747EC-82EA-41CB-945F-5D0A762147BA}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
