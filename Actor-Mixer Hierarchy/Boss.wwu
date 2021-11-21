@@ -13,20 +13,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Pasos" ID="{CEF85C07-009E-41B3-BC5B-D47C2C6A3CBE}" ShortID="331247841">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-280</Value>
-									</ValueList>
-								</Property>
-								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-4</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<BlendContainer Name="Pasos_completos" ID="{5C9F23C7-69AB-4A06-87F1-5404F5EB65A0}" ShortID="926747969">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
@@ -36,7 +23,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Pasos_der" ID="{F985E380-7D07-4475-827F-918FBD0179D1}" ShortID="521664011">
+								<RandomSequenceContainer Name="Pasos" ID="{CEF85C07-009E-41B3-BC5B-D47C2C6A3CBE}" ShortID="331247841">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-280</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
@@ -46,7 +46,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Orco_Fx_Pasoderecha-001" ID="{A8CF7537-A683-4858-9332-0E274A18FA0D}" ShortID="790195528">
+										<RandomSequenceContainer Name="Pasos_der" ID="{F985E380-7D07-4475-827F-918FBD0179D1}" ShortID="521664011">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
@@ -56,25 +56,94 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Orco_Fx_Pasoderecha-001" ID="{DDD93AFA-ED32-478E-8F9B-DB299CBF7346}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.00612210564399421"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.00306105282199709"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Orco_Fx_Pasoderecha-001.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1044057678"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="Orco_Fx_Pasoderecha-001" ID="{A8CF7537-A683-4858-9332-0E274A18FA0D}" ShortID="790195528">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Orco_Fx_Pasoderecha-001" ID="{DDD93AFA-ED32-478E-8F9B-DB299CBF7346}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00612210564399421"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.00306105282199709"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Orco_Fx_Pasoderecha-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1044057678"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Orco_Fx_Pasoderecha-001" ID="{DDD93AFA-ED32-478E-8F9B-DB299CBF7346}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Orco_Fx_Pasoderecha-002" ID="{E089A7E0-C945-4FFC-A42A-58C167F5300A}" ShortID="10086869">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Orco_Fx_Pasoderecha-002" ID="{1A2A35F5-C9DA-40DA-B031-9382B65685B3}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0058193137964303"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.00465545103714426"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Orco_Fx_Pasoderecha-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="241520495"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Orco_Fx_Pasoderecha-002" ID="{1A2A35F5-C9DA-40DA-B031-9382B65685B3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Orco_Fx_Pasoderecha-003" ID="{D8892DBB-2514-4CA3-A9A0-796A5870B5A1}" ShortID="60579433">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Orco_Fx_Pasoderecha-003" ID="{FDD2903E-9E6D-42D2-841B-755EAB11847A}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00889055716353111"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.00381023878437048"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Orco_Fx_Pasoderecha-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="664099092"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Orco_Fx_Pasoderecha-003" ID="{FDD2903E-9E6D-42D2-841B-755EAB11847A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Orco_Fx_Pasoderecha-001" ID="{DDD93AFA-ED32-478E-8F9B-DB299CBF7346}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Orco_Fx_Pasoderecha-002" ID="{E089A7E0-C945-4FFC-A42A-58C167F5300A}" ShortID="10086869">
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Pasos_izq" ID="{608DE542-3D59-403F-9D77-5CF877573278}" ShortID="31794736">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
@@ -84,25 +153,94 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Orco_Fx_Pasoderecha-002" ID="{1A2A35F5-C9DA-40DA-B031-9382B65685B3}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0058193137964303"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.00465545103714426"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Orco_Fx_Pasoderecha-002.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="241520495"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="Orco_Fx_Pasoizquierda-001" ID="{A9DF954D-0648-4B56-BFC7-FBC9AB4E02A5}" ShortID="949751849">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Orco_Fx_Pasoizquierda-001" ID="{A63A021F-5779-4850-B2E0-DAC7EB36211B}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0111845754944525"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.00671074529667148"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Orco_Fx_Pasoizquierda-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="306534468"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Orco_Fx_Pasoizquierda-001" ID="{A63A021F-5779-4850-B2E0-DAC7EB36211B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Orco_Fx_Pasoizquierda-002" ID="{9452CDD7-FBFF-432E-AAC5-F0DCA7CA8192}" ShortID="670363338">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Orco_Fx_Pasoizquierda-002" ID="{D782B50B-7FD8-4041-AC22-1C484BD7D3F5}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00670007235890015"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.00558339363241678"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Orco_Fx_Pasoizquierda-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="341149171"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Orco_Fx_Pasoizquierda-002" ID="{D782B50B-7FD8-4041-AC22-1C484BD7D3F5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Orco_Fx_Pasoizquierda-003" ID="{1A803943-C687-471B-BAB3-8F63BA1AA331}" ShortID="117500770">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Orco_Fx_Pasoizquierda-003" ID="{761D2653-3749-441B-91BB-3A554EAF7A0D}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00565168234442837"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.00339100940665693"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Orco_Fx_Pasoizquierda-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="999109316"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Orco_Fx_Pasoizquierda-003" ID="{761D2653-3749-441B-91BB-3A554EAF7A0D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Orco_Fx_Pasoderecha-002" ID="{1A2A35F5-C9DA-40DA-B031-9382B65685B3}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Orco_Fx_Pasoderecha-003" ID="{D8892DBB-2514-4CA3-A9A0-796A5870B5A1}" ShortID="60579433">
+										</RandomSequenceContainer>
+										<Sound Name="Silence" ID="{809EBC1F-A916-417D-8FC8-5BA6C37044B9}" ShortID="207247619">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
@@ -112,28 +250,32 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Orco_Fx_Pasoderecha-003" ID="{FDD2903E-9E6D-42D2-841B-755EAB11847A}">
+												<SourcePlugin Name="Wwise Silence" ID="{9D96E401-4AF1-4756-BCAF-C50E3C6F3B1E}" ShortID="859456066" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.00889055716353111"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.00381023878437048"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="Length" Type="Real32" Value="0.001"/>
+														<Property Name="LengthMax" Type="Real32" Value="1"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Orco_Fx_Pasoderecha-003.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="664099092"/>
-													</MediaIDList>
-												</AudioFileSource>
+												</SourcePlugin>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="Orco_Fx_Pasoderecha-003" ID="{FDD2903E-9E6D-42D2-841B-755EAB11847A}" Platform="Linked"/>
+												<ActiveSource Name="Wwise Silence" ID="{9D96E401-4AF1-4756-BCAF-C50E3C6F3B1E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
+									<Playlist>
+										<ItemRef Name="Pasos_der" ID="{F985E380-7D07-4475-827F-918FBD0179D1}"/>
+										<ItemRef Name="Silence" ID="{809EBC1F-A916-417D-8FC8-5BA6C37044B9}"/>
+										<ItemRef Name="Pasos_izq" ID="{608DE542-3D59-403F-9D77-5CF877573278}"/>
+										<ItemRef Name="Silence" ID="{809EBC1F-A916-417D-8FC8-5BA6C37044B9}"/>
+									</Playlist>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Pasos_izq" ID="{608DE542-3D59-403F-9D77-5CF877573278}" ShortID="31794736">
+								<RandomSequenceContainer Name="ropacont" ID="{08268544-F2D9-45EC-81C3-3C4E09FB2621}" ShortID="383409109">
+									<PropertyList>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
@@ -143,125 +285,128 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Orco_Fx_Pasoizquierda-001" ID="{A9DF954D-0648-4B56-BFC7-FBC9AB4E02A5}" ShortID="949751849">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Orco_Fx_Pasoizquierda-001" ID="{A63A021F-5779-4850-B2E0-DAC7EB36211B}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0111845754944525"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.00671074529667148"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Orco_Fx_Pasoizquierda-001.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="306534468"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Orco_Fx_Pasoizquierda-001" ID="{A63A021F-5779-4850-B2E0-DAC7EB36211B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Orco_Fx_Pasoizquierda-002" ID="{9452CDD7-FBFF-432E-AAC5-F0DCA7CA8192}" ShortID="670363338">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Orco_Fx_Pasoizquierda-002" ID="{D782B50B-7FD8-4041-AC22-1C484BD7D3F5}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.00670007235890015"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.00558339363241678"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Orco_Fx_Pasoizquierda-002.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="341149171"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Orco_Fx_Pasoizquierda-002" ID="{D782B50B-7FD8-4041-AC22-1C484BD7D3F5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Orco_Fx_Pasoizquierda-003" ID="{1A803943-C687-471B-BAB3-8F63BA1AA331}" ShortID="117500770">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Orco_Fx_Pasoizquierda-003" ID="{761D2653-3749-441B-91BB-3A554EAF7A0D}">
-													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.00565168234442837"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.00339100940665693"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Orco_Fx_Pasoizquierda-003.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="999109316"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="Orco_Fx_Pasoizquierda-003" ID="{761D2653-3749-441B-91BB-3A554EAF7A0D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<ObjectLists/>
-								</RandomSequenceContainer>
-								<Sound Name="Silence" ID="{809EBC1F-A916-417D-8FC8-5BA6C37044B9}" ShortID="207247619">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<SourcePlugin Name="Wwise Silence" ID="{9D96E401-4AF1-4756-BCAF-C50E3C6F3B1E}" ShortID="859456066" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+										<RandomSequenceContainer Name="Ropa" ID="{E3E9DFD5-3028-4805-B250-B836C7A6FD58}" ShortID="716222042">
 											<PropertyList>
-												<Property Name="Length" Type="Real32" Value="0.001"/>
-												<Property Name="LengthMax" Type="Real32" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-19</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
-											<Language>SFX</Language>
-										</SourcePlugin>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Foley_ropa_final-001" ID="{857259D7-4CAA-404D-84EA-26B74EF6D66A}" ShortID="263820874">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Foley_ropa_final-001" ID="{C92C10DF-C2F4-42B6-B4AD-591EE789E23D}">
+															<Language>SFX</Language>
+															<AudioFile>Foley_ropa_final-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="9471008"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Foley_ropa_final-001" ID="{C92C10DF-C2F4-42B6-B4AD-591EE789E23D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Foley_ropa_final-002" ID="{774E5B74-4445-4042-ADB8-DD23C4C1718D}" ShortID="199833603">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Foley_ropa_final-002" ID="{BDB0F682-1F2F-478A-8320-D63ABAFF79B8}">
+															<Language>SFX</Language>
+															<AudioFile>Foley_ropa_final-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1056715555"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Foley_ropa_final-002" ID="{BDB0F682-1F2F-478A-8320-D63ABAFF79B8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Foley_ropa_final-003" ID="{9BAFAF8A-0BBA-469D-94DA-591651E44DB5}" ShortID="726616189">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Foley_ropa_final-003" ID="{B5D0740B-99A5-4625-A382-218C9288F033}">
+															<Language>SFX</Language>
+															<AudioFile>Foley_ropa_final-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="880811429"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Foley_ropa_final-003" ID="{B5D0740B-99A5-4625-A382-218C9288F033}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<Sound Name="Silence" ID="{8B56D2C1-30D4-4178-B46F-51654CDA8509}" ShortID="981335953">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{69BC10B6-AD3C-4614-9C80-4D2C3E265F00}" ShortID="692313562" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.001"/>
+														<Property Name="LengthMax" Type="Real32" Value="1"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{69BC10B6-AD3C-4614-9C80-4D2C3E265F00}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Wwise Silence" ID="{9D96E401-4AF1-4756-BCAF-C50E3C6F3B1E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+									<Playlist>
+										<ItemRef Name="Ropa" ID="{E3E9DFD5-3028-4805-B250-B836C7A6FD58}"/>
+										<ItemRef Name="Silence" ID="{8B56D2C1-30D4-4178-B46F-51654CDA8509}"/>
+									</Playlist>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<ObjectLists/>
-							<Playlist>
-								<ItemRef Name="Pasos_der" ID="{F985E380-7D07-4475-827F-918FBD0179D1}"/>
-								<ItemRef Name="Silence" ID="{809EBC1F-A916-417D-8FC8-5BA6C37044B9}"/>
-								<ItemRef Name="Pasos_izq" ID="{608DE542-3D59-403F-9D77-5CF877573278}"/>
-								<ItemRef Name="Silence" ID="{809EBC1F-A916-417D-8FC8-5BA6C37044B9}"/>
-							</Playlist>
-						</RandomSequenceContainer>
+						</BlendContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

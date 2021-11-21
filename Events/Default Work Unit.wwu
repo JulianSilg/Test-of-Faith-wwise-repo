@@ -61,7 +61,7 @@
 								<Action Name="" ID="{DE6BCF53-2065-434D-BC98-AFA61284F194}" ShortID="741395289">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Batalla Boss" ID="{1B5025D1-54B9-4373-AD4B-89A514B83CA7}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}"/>
+											<ObjectRef Name="door_close" ID="{FF343195-E05B-4085-8DE4-E9134D125E30}" WorkUnitID="{E79F30B8-5A73-4D15-86F5-57710240CE9D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -92,9 +92,22 @@
 						<Event Name="open_loot" ID="{00958420-1BDF-441C-91A1-EA54C5946B94}">
 							<ChildrenList>
 								<Action Name="" ID="{50550420-28B4-4792-A0D2-9C5E9F26D478}" ShortID="866780533">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="open_loot" ID="{6EED5FEC-972B-4B11-8BB1-8D3665BB5C8B}" WorkUnitID="{E79F30B8-5A73-4D15-86F5-57710240CE9D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{04F5559C-8604-42FE-99B1-397D7A9EC21F}" ShortID="870201049">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="aparece_loot" ID="{9E78E6B2-FFC8-4D77-BE93-0D58BB1EC68E}" WorkUnitID="{E79F30B8-5A73-4D15-86F5-57710240CE9D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -367,7 +380,7 @@
 								<Action Name="" ID="{1FFA4033-3BEF-41A6-984A-E9AAC43A6DC6}" ShortID="632433753">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="Scope" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -432,7 +445,7 @@
 								<Action Name="" ID="{E08AE035-DEB5-4892-8215-56DF169DC452}" ShortID="248825357">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Pasos" ID="{CEF85C07-009E-41B3-BC5B-D47C2C6A3CBE}" WorkUnitID="{78234100-6945-4FAE-B114-6A3DBAC7E788}"/>
+											<ObjectRef Name="Pasos_completos" ID="{5C9F23C7-69AB-4A06-87F1-5404F5EB65A0}" WorkUnitID="{78234100-6945-4FAE-B114-6A3DBAC7E788}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -444,6 +457,7 @@
 					<ChildrenList>
 						<Event Name="rtpc_life" ID="{34713213-459E-4058-94F6-26934ED4A1A4}"/>
 						<Event Name="rtpc_mastervolume" ID="{74C0E9AD-8CFE-4EE3-8DB1-90C721C57E9C}"/>
+						<Event Name="boss_life" ID="{334BCC7A-B7B7-42EA-8692-5509415458F8}"/>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Set_Switch_Exploracion" ID="{944A4CD4-7965-476D-A148-C1A46D1B2C65}">

@@ -4,12 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{7E37A0B2-2F5A-4B95-9D6D-9000B1E1F03E}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="New Soundcaster Session" ID="{14693AA8-61C2-4234-AD13-47350BDF6758}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="Musica" ID="{25DC21DC-8CF2-4DCE-B073-F0DCC361C831}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="boss_life" ID="{A82FE595-0041-4998-A165-3BC23528F5CF}"/>

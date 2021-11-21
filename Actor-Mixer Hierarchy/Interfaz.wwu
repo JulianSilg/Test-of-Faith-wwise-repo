@@ -70,12 +70,12 @@
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>200</Value>
+										<Value>600</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -186,13 +186,6 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="ingame_card" ID="{D8EEDD2B-9FDD-4156-B41A-C4542CA53E39}" ShortID="2890002">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-18</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
@@ -202,14 +195,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Fantasy_Game_UI_Earth_Confirm" ID="{52818754-FCC1-4F6B-A313-8BBC27EAB647}" ShortID="294455882">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>200</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								<Sound Name="open_loot_card-001" ID="{89DF6B60-6517-411A-9670-39802D9E2E6D}" ShortID="821773434">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
@@ -219,22 +205,40 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Fantasy_Game_UI_Earth_Confirm" ID="{333A287B-A1F1-4139-9CCF-8F15AFAB9FED}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.200959121785541"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.31396348859777"/>
-											</PropertyList>
+										<AudioFileSource Name="open_loot_card-001" ID="{6BC93B85-D036-4665-9390-0912743EFC0A}">
 											<Language>SFX</Language>
-											<AudioFile>Fantasy_Game_UI_Earth_Confirm.wav</AudioFile>
+											<AudioFile>open_loot_card-001.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="348122560"/>
+												<MediaID ID="636030852"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Fantasy_Game_UI_Earth_Confirm" ID="{333A287B-A1F1-4139-9CCF-8F15AFAB9FED}" Platform="Linked"/>
+										<ActiveSource Name="open_loot_card-001" ID="{6BC93B85-D036-4665-9390-0912743EFC0A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="open_loot_card-002" ID="{277B3F98-4B89-4803-BD16-1BADC4AB08DE}" ShortID="856992576">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D52CA736-AC7B-426A-8063-094A81D8AEED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="open_loot_card-002" ID="{82650C2F-B8FD-435E-920E-5EC7DACDF3DC}">
+											<Language>SFX</Language>
+											<AudioFile>open_loot_card-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="210679115"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="open_loot_card-002" ID="{82650C2F-B8FD-435E-920E-5EC7DACDF3DC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

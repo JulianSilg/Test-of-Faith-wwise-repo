@@ -8,9 +8,14 @@ Switch	ID	Name	Switch Group			Notes
 	3786252812	Cero	Boss_vida			
 
 State Group	ID	Name			Wwise Object Path	Notes
+	873867260	Musica_Juego			\Default Work Unit\Musica_Juego	
 	3092587489	pausa			\Default Work Unit\pausa	
 
 State	ID	Name	State Group			Notes
+	675784008	Batalla	Musica_Juego			
+	748895195	None	Musica_Juego			
+	2607556080	Menu	Musica_Juego			
+	3524513810	Pantalla_Inicio	Musica_Juego			
 	582728953	pausa_in	pausa			
 	748895195	None	pausa			
 	2340700472	pausa_out	pausa			

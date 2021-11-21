@@ -196,7 +196,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Fantasy_Game_Door_Close" ID="{A6AB988F-4CDD-4E3A-8353-0CFC0F0B06C3}" ShortID="94222782">
+								<Sound Name="door_Fx_close" ID="{23CAFDE2-4F5D-47E5-9CD6-C9E702C984E0}" ShortID="1030829195">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
@@ -206,28 +206,30 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Fantasy_Game_Door_Close" ID="{632A8E52-E716-445F-99DD-D9EA7733420F}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00451690623483746"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.00580745087336243"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
+										<AudioFileSource Name="door_Fx_close" ID="{B9CA2202-955C-4BD0-96A0-FC05B2A2DBF2}">
 											<Language>SFX</Language>
-											<AudioFile>Fantasy_Game_Door_Close.wav</AudioFile>
+											<AudioFile>door_Fx_close.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="283656089"/>
+												<MediaID ID="177055058"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Fantasy_Game_Door_Close" ID="{632A8E52-E716-445F-99DD-D9EA7733420F}" Platform="Linked"/>
+										<ActiveSource Name="door_Fx_close" ID="{B9CA2202-955C-4BD0-96A0-FC05B2A2DBF2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
 						</BlendContainer>
 						<BlendContainer Name="door_open" ID="{180198D4-474C-4271-B95E-A1D69149FB4D}" ShortID="131788038">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
@@ -237,7 +239,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Fantasy_Game_Door_Open" ID="{1A78BDF1-9A41-4334-BADA-60F47CFDCB9F}" ShortID="904980689">
+								<Sound Name="door_Fx_open" ID="{E64E588C-7E16-41E4-9F86-2EDB4AC61C5F}" ShortID="494121699">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
@@ -247,22 +249,22 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Fantasy_Game_Door_Open" ID="{E56B28C5-965E-4642-94D0-EDC1BAE390F6}">
+										<AudioFileSource Name="door_Fx_open" ID="{DB57BF6E-5052-48FE-9060-A5D04BA448BC}">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00462154294032023"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.00385128578360022"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.406628649635037"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Fantasy_Game_Door_Open.wav</AudioFile>
+											<AudioFile>door_Fx_open.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="464954186"/>
+												<MediaID ID="13440766"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Fantasy_Game_Door_Open" ID="{E56B28C5-965E-4642-94D0-EDC1BAE390F6}" Platform="Linked"/>
+										<ActiveSource Name="door_Fx_open" ID="{DB57BF6E-5052-48FE-9060-A5D04BA448BC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -494,6 +496,13 @@
 							<ObjectLists/>
 						</BlendContainer>
 						<RandomSequenceContainer Name="open_loot" ID="{6EED5FEC-972B-4B11-8BB1-8D3665BB5C8B}" ShortID="269582763">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
