@@ -25,7 +25,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX" Hash="1234547521">
+		<SoundBank Id="4072029455" Language="SFX" Hash="1821781397">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
@@ -58,11 +58,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2883369105" Name="boss_attack" ObjectPath="\Events\Default Work Unit\Boss\boss_attack" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1278916905" Name="boss_die" ObjectPath="\Events\Default Work Unit\Boss\boss_die" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3167145899" Name="boss_idle" ObjectPath="\Events\Default Work Unit\Boss\boss_idle" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3556884147" Name="boss_life" ObjectPath="\Events\Default Work Unit\RTPCs\boss_life" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1954486035" Name="boss_receivedamage" ObjectPath="\Events\Default Work Unit\Boss\boss_receivedamage" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1374521763" Name="boss_step" ObjectPath="\Events\Default Work Unit\Boss\boss_step" DurationType="OneShot" DurationMin="0.001176" DurationMax="1.176723">
 					<IncludedMemoryFiles>
 						<File Id="9471008" Language="SFX">
@@ -103,6 +99,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="4023858067" Name="boss_strikedos" ObjectPath="\Events\Default Work Unit\Boss\boss_strikedos" DurationType="OneShot" DurationMin="2.651313" DurationMax="2.975998">
+					<IncludedMemoryFiles>
+						<File Id="1054583540" Language="SFX">
+							<ShortName>golpe_comb.wav</ShortName>
+							<Path>SFX\golpe_comb_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4004373545" Name="boss_strikeuno" ObjectPath="\Events\Default Work Unit\Boss\boss_strikeuno" DurationType="OneShot" DurationMin="2.041654" DurationMax="2.572323">
+					<IncludedMemoryFiles>
+						<File Id="395153170" Language="SFX">
+							<ShortName>golpe_simple2.wav</ShortName>
+							<Path>SFX\golpe_simple2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="950189142" Name="clear_room" ObjectPath="\Events\Default Work Unit\Generales\clear_room" DurationType="OneShot" DurationMin="1.505625" DurationMax="1.505625">
 					<IncludedMemoryFiles>
 						<File Id="13440766" Language="SFX">
@@ -119,6 +131,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1766466901" Name="inicio_battle" ObjectPath="\Events\Default Work Unit\Generales\inicio_battle" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1373024549" Name="inicio_game" ObjectPath="\Events\Default Work Unit\Generales\inicio_game" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="880580374" Name="inicio_menu" ObjectPath="\Events\Default Work Unit\Generales\inicio_menu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="194776941" Name="inicio_start" ObjectPath="\Events\Default Work Unit\Generales\inicio_start" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>

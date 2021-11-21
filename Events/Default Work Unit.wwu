@@ -114,6 +114,7 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="menu_ingame" ID="{1FCF1C2B-5B2F-409F-B364-62C31B5124DC}"/>
+						<Event Name="inicio_battle" ID="{545F7777-6F5E-4F00-A865-AA40F29609F3}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Interfaz" ID="{51C87D6B-005C-4E44-8103-0E1D6288FC30}" ShortID="96525209">
@@ -436,16 +437,34 @@
 				</Folder>
 				<Folder Name="Boss" ID="{27D1051F-BB4C-45EA-895E-5208E074A539}" ShortID="188277025">
 					<ChildrenList>
-						<Event Name="boss_idle" ID="{750FA180-FBD8-4F1F-8ED5-A32B613B850E}"/>
-						<Event Name="boss_attack" ID="{BFF56C51-B21F-4C8F-85BA-404E20D31567}"/>
-						<Event Name="boss_receivedamage" ID="{0A481BC2-6F63-43B3-838E-3F429C4BF87E}"/>
-						<Event Name="boss_die" ID="{CC86E804-C26F-45B6-8C0C-784CDABE7B79}"/>
 						<Event Name="boss_step" ID="{BE306311-3259-452D-BADB-794F708CBA82}">
 							<ChildrenList>
 								<Action Name="" ID="{E08AE035-DEB5-4892-8215-56DF169DC452}" ShortID="248825357">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Pasos_completos" ID="{5C9F23C7-69AB-4A06-87F1-5404F5EB65A0}" WorkUnitID="{78234100-6945-4FAE-B114-6A3DBAC7E788}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="boss_strikeuno" ID="{AFFD38F2-15AF-4055-8262-9B80E593F148}">
+							<ChildrenList>
+								<Action Name="" ID="{27745311-3B2D-4B73-BEAC-696FF55635AE}" ShortID="135272350">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="golpe_simple2" ID="{175C2339-ACDB-43B2-B681-3F3F797904CF}" WorkUnitID="{78234100-6945-4FAE-B114-6A3DBAC7E788}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="boss_strikedos" ID="{5B49DAF0-A0D7-4D47-973D-86C9B887F073}">
+							<ChildrenList>
+								<Action Name="" ID="{D0ED7536-BE9F-4E57-BCAD-5599CF061069}" ShortID="642609275">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="golpe_comb" ID="{292BEB09-9DCF-496A-9F93-C560F80F32F0}" WorkUnitID="{78234100-6945-4FAE-B114-6A3DBAC7E788}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
