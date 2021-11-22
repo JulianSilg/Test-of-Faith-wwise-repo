@@ -5,13 +5,23 @@
 			<ChildrenList>
 				<Folder Name="Generales" ID="{E5A40269-1D68-48DD-B186-D25DBFF39578}" ShortID="231875973">
 					<ChildrenList>
-						<Event Name="inicio_menu" ID="{38902BF4-A85A-489E-B211-250DA22F618C}"/>
+						<Event Name="inicio_menu" ID="{38902BF4-A85A-489E-B211-250DA22F618C}">
+							<ChildrenList>
+								<Action Name="" ID="{11F0EA25-54C9-44B7-902C-64C08C6FE1DC}" ShortID="297170982">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main" ID="{C00F89C4-FE97-46B7-8196-265F53C30469}" WorkUnitID="{202EAE8E-ED00-44F0-85C0-478448DB41C8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="inicio_start" ID="{321F61EE-3034-48D7-A0B8-63CBE81BD04A}">
 							<ChildrenList>
 								<Action Name="" ID="{E28AB872-50B9-47B8-A478-0AE295B5EDC4}" ShortID="852089289">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Playlist Pantalla Inicio" ID="{88A52C0F-4D6E-4D50-8DBB-39D2EF095389}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}"/>
+											<ObjectRef Name="Main" ID="{C00F89C4-FE97-46B7-8196-265F53C30469}" WorkUnitID="{202EAE8E-ED00-44F0-85C0-478448DB41C8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -22,7 +32,7 @@
 								<Action Name="" ID="{7E9DC5BD-9581-4CC5-A542-3F4C2C258444}" ShortID="336653904">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Playlist Pantalla Inicio" ID="{88A52C0F-4D6E-4D50-8DBB-39D2EF095389}" WorkUnitID="{355C4C97-B724-450F-993F-643D35675E84}"/>
+											<ObjectRef Name="Main" ID="{C00F89C4-FE97-46B7-8196-265F53C30469}" WorkUnitID="{202EAE8E-ED00-44F0-85C0-478448DB41C8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
