@@ -170,7 +170,7 @@
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Riff " ID="{B163F938-FCD2-4856-8103-9D4EEA204551}">
+																				<MusicClip Name="Riff" ID="{B163F938-FCD2-4856-8103-9D4EEA204551}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="26400"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -431,13 +431,6 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Explore" ID="{746549B5-8052-4408-BA0B-CFD910A45997}" ShortID="645628416">
-							<PropertyList>
-								<Property Name="PlaybackSpeed" Type="Real64">
-									<ValueList>
-										<Value>1.4</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
@@ -559,7 +552,7 @@
 																									</Point>
 																									<Point>
 																										<XPos>33.02098</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
 																								</PointList>
@@ -790,7 +783,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
