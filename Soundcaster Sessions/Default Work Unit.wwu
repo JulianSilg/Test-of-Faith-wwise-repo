@@ -9,6 +9,10 @@
 							<GameParameterRef Name="boss_life" ID="{A82FE595-0041-4998-A165-3BC23528F5CF}"/>
 							<Value>0</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rtpc_mastervolume" ID="{79C0EBCE-05AC-4C45-8371-247A549C4333}"/>
+							<Value>50</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{CA873F40-2F3D-4F92-859E-D5DEC1E62F6A}"/>

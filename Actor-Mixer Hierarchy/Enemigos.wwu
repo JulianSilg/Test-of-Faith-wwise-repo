@@ -17,6 +17,11 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Idle" ID="{E709C165-AF70-49EC-83D4-26D0BAA84680}" ShortID="607976378">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>24</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -35,7 +40,7 @@
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-22</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -151,6 +156,11 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Dead" ID="{9AB34B76-FCD5-4455-958C-4F3BFDC4DFE9}" ShortID="577581486">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-16</Value>
@@ -426,6 +436,11 @@
 								</RandomSequenceContainer>
 								<BlendContainer Name="Attack" ID="{7B35635B-1D11-4581-AB78-2F6E93B08A89}" ShortID="771841297">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -718,7 +733,7 @@
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-14</Value>
+												<Value>-20</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

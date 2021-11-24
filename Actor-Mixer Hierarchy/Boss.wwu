@@ -274,7 +274,29 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="ropacont" ID="{08268544-F2D9-45EC-81C3-3C4E09FB2621}" ShortID="383409109">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{22C57E49-0018-469D-8188-0491A54110B6}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-400"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -286,13 +308,6 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="Ropa" ID="{E3E9DFD5-3028-4805-B250-B836C7A6FD58}" ShortID="716222042">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-19</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D4872844-544C-4D54-BC0A-8AD1DA0507E9}"/>
