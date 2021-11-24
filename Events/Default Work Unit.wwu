@@ -75,6 +75,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{81CE4FF3-513A-45BD-8B07-14CDE8ADE85C}" ShortID="168065247">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Battle" ID="{D79411AC-44E3-4BE1-A5BF-45B9FEB3B23B}" WorkUnitID="{202EAE8E-ED00-44F0-85C0-478448DB41C8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="clear_room" ID="{434B48B5-9ACE-4912-BCEA-D12B3A5E726F}">
@@ -124,7 +131,17 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="menu_ingame" ID="{1FCF1C2B-5B2F-409F-B364-62C31B5124DC}"/>
-						<Event Name="inicio_battle" ID="{545F7777-6F5E-4F00-A865-AA40F29609F3}"/>
+						<Event Name="inicio_battle" ID="{545F7777-6F5E-4F00-A865-AA40F29609F3}">
+							<ChildrenList>
+								<Action Name="" ID="{6C2A7A4E-500D-45F7-99B9-90AA7687A454}" ShortID="593697293">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Battle" ID="{D79411AC-44E3-4BE1-A5BF-45B9FEB3B23B}" WorkUnitID="{202EAE8E-ED00-44F0-85C0-478448DB41C8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Interfaz" ID="{51C87D6B-005C-4E44-8103-0E1D6288FC30}" ShortID="96525209">

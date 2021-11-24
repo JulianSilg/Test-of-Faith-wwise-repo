@@ -25,7 +25,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX" Hash="3099941169">
+		<SoundBank Id="4072029455" Language="SFX" Hash="558980681">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
@@ -123,15 +123,42 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2409810141" Name="enter_room" ObjectPath="\Events\Default Work Unit\Generales\enter_room" DurationType="OneShot" DurationMin="1.750750" DurationMax="1.750750">
+				<Event Id="2409810141" Name="enter_room" ObjectPath="\Events\Default Work Unit\Generales\enter_room" DurationType="OneShot" DurationMin="26.400000" DurationMax="26.400000">
 					<IncludedMemoryFiles>
+						<File Id="75246854" Language="SFX">
+							<ShortName>Arpegio.wav</ShortName>
+							<Path>SFX/Arpegio_D79FB2B7.wem</Path>
+						</File>
 						<File Id="177055058" Language="SFX">
 							<ShortName>door_Fx_close.wav</ShortName>
 							<Path>SFX/door_Fx_close_10C4C929.wem</Path>
 						</File>
+						<File Id="630600537" Language="SFX">
+							<ShortName>Riff .wav</ShortName>
+							<Path>SFX/Riff _D79FB2B7.wem</Path>
+						</File>
+						<File Id="824314592" Language="SFX">
+							<ShortName>Melodia.wav</ShortName>
+							<Path>SFX/Melodia_D79FB2B7.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1766466901" Name="inicio_battle" ObjectPath="\Events\Default Work Unit\Generales\inicio_battle" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1766466901" Name="inicio_battle" ObjectPath="\Events\Default Work Unit\Generales\inicio_battle" DurationType="OneShot" DurationMin="26.400000" DurationMax="26.400000">
+					<IncludedMemoryFiles>
+						<File Id="75246854" Language="SFX">
+							<ShortName>Arpegio.wav</ShortName>
+							<Path>SFX/Arpegio_D79FB2B7.wem</Path>
+						</File>
+						<File Id="630600537" Language="SFX">
+							<ShortName>Riff .wav</ShortName>
+							<Path>SFX/Riff _D79FB2B7.wem</Path>
+						</File>
+						<File Id="824314592" Language="SFX">
+							<ShortName>Melodia.wav</ShortName>
+							<Path>SFX/Melodia_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1373024549" Name="inicio_game" ObjectPath="\Events\Default Work Unit\Generales\inicio_game" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="1004681454" Language="SFX">
