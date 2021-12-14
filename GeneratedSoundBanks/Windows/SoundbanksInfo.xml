@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>/Users/manuel/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Test-of-Faith-wwise-repo/</ProjectRoot>
+		<SourceFilesRoot>/Users/manuel/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Test-of-Faith-wwise-repo/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/manuel/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Test-of-Faith-wwise-repo/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/manuel/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Test-of-Faith-wwise-repo/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -28,7 +28,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX" Hash="3727771346">
+		<SoundBank Id="4072029455" Language="SFX" Hash="4068524557">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
@@ -37,27 +37,27 @@
 					<IncludedMemoryFiles>
 						<File Id="241286790" Language="SFX">
 							<ShortName>aparece loot_music.wav</ShortName>
-							<Path>SFX\aparece loot_music_E939BFE7.wem</Path>
+							<Path>SFX/aparece loot_music_E939BFE7.wem</Path>
 						</File>
 						<File Id="364815523" Language="SFX">
 							<ShortName>aparece loot_music.wav</ShortName>
-							<Path>SFX\aparece loot_music_717881C0.wem</Path>
+							<Path>SFX/aparece loot_music_717881C0.wem</Path>
 						</File>
 						<File Id="562460157" Language="SFX">
 							<ShortName>aparece loot-001.wav</ShortName>
-							<Path>SFX\aparece loot-001_10C4C929.wem</Path>
+							<Path>SFX/aparece loot-001_10C4C929.wem</Path>
 						</File>
 						<File Id="652156168" Language="SFX">
 							<ShortName>aparece loot-002.wav</ShortName>
-							<Path>SFX\aparece loot-002_10C4C929.wem</Path>
+							<Path>SFX/aparece loot-002_10C4C929.wem</Path>
 						</File>
 						<File Id="837298047" Language="SFX">
 							<ShortName>aparece loot_music.wav</ShortName>
-							<Path>SFX\aparece loot_music_6E3A3EF8.wem</Path>
+							<Path>SFX/aparece loot_music_6E3A3EF8.wem</Path>
 						</File>
 						<File Id="972092062" Language="SFX">
 							<ShortName>aparece loot_music.wav</ShortName>
-							<Path>SFX\aparece loot_music_1D0A40A4.wem</Path>
+							<Path>SFX/aparece loot_music_1D0A40A4.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -66,39 +66,39 @@
 					<IncludedMemoryFiles>
 						<File Id="9471008" Language="SFX">
 							<ShortName>Foley_ropa_final-001.wav</ShortName>
-							<Path>SFX\Foley_ropa_final-001_10C4C929.wem</Path>
+							<Path>SFX/Foley_ropa_final-001_10C4C929.wem</Path>
 						</File>
 						<File Id="241520495" Language="SFX">
 							<ShortName>Orco_Fx_Pasoderecha-002.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoderecha-002_5881689F.wem</Path>
+							<Path>SFX/Orco_Fx_Pasoderecha-002_5881689F.wem</Path>
 						</File>
 						<File Id="306534468" Language="SFX">
 							<ShortName>Orco_Fx_Pasoizquierda-001.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoizquierda-001_09FD2DE6.wem</Path>
+							<Path>SFX/Orco_Fx_Pasoizquierda-001_09FD2DE6.wem</Path>
 						</File>
 						<File Id="341149171" Language="SFX">
 							<ShortName>Orco_Fx_Pasoizquierda-002.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoizquierda-002_8DE64D6A.wem</Path>
+							<Path>SFX/Orco_Fx_Pasoizquierda-002_8DE64D6A.wem</Path>
 						</File>
 						<File Id="664099092" Language="SFX">
 							<ShortName>Orco_Fx_Pasoderecha-003.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoderecha-003_36EFCB91.wem</Path>
+							<Path>SFX/Orco_Fx_Pasoderecha-003_36EFCB91.wem</Path>
 						</File>
 						<File Id="880811429" Language="SFX">
 							<ShortName>Foley_ropa_final-003.wav</ShortName>
-							<Path>SFX\Foley_ropa_final-003_10C4C929.wem</Path>
+							<Path>SFX/Foley_ropa_final-003_10C4C929.wem</Path>
 						</File>
 						<File Id="999109316" Language="SFX">
 							<ShortName>Orco_Fx_Pasoizquierda-003.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoizquierda-003_25EC416D.wem</Path>
+							<Path>SFX/Orco_Fx_Pasoizquierda-003_25EC416D.wem</Path>
 						</File>
 						<File Id="1044057678" Language="SFX">
 							<ShortName>Orco_Fx_Pasoderecha-001.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoderecha-001_E45FCE47.wem</Path>
+							<Path>SFX/Orco_Fx_Pasoderecha-001_E45FCE47.wem</Path>
 						</File>
 						<File Id="1056715555" Language="SFX">
 							<ShortName>Foley_ropa_final-002.wav</ShortName>
-							<Path>SFX\Foley_ropa_final-002_10C4C929.wem</Path>
+							<Path>SFX/Foley_ropa_final-002_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -106,7 +106,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1054583540" Language="SFX">
 							<ShortName>golpe_comb.wav</ShortName>
-							<Path>SFX\golpe_comb_10C4C929.wem</Path>
+							<Path>SFX/golpe_comb_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -114,7 +114,7 @@
 					<IncludedMemoryFiles>
 						<File Id="395153170" Language="SFX">
 							<ShortName>golpe_simple2.wav</ShortName>
-							<Path>SFX\golpe_simple2_10C4C929.wem</Path>
+							<Path>SFX/golpe_simple2_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -122,67 +122,45 @@
 					<IncludedMemoryFiles>
 						<File Id="13440766" Language="SFX">
 							<ShortName>door_Fx_open.wav</ShortName>
-							<Path>SFX\door_Fx_open_84EA93AA.wem</Path>
+							<Path>SFX/door_Fx_open_84EA93AA.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2409810141" Name="enter_room" ObjectPath="\Events\Default Work Unit\Generales\enter_room" DurationType="OneShot" DurationMin="26.400000" DurationMax="26.400000">
+				<Event Id="2409810141" Name="enter_room" ObjectPath="\Events\Default Work Unit\Generales\enter_room" DurationType="OneShot" DurationMin="1.750750" DurationMax="1.750750">
 					<IncludedMemoryFiles>
-						<File Id="75246854" Language="SFX">
-							<ShortName>Arpegio.wav</ShortName>
-							<Path>SFX\Arpegio_D79FB2B7.wem</Path>
-						</File>
 						<File Id="177055058" Language="SFX">
 							<ShortName>door_Fx_close.wav</ShortName>
-							<Path>SFX\door_Fx_close_10C4C929.wem</Path>
-						</File>
-						<File Id="630600537" Language="SFX">
-							<ShortName>Riff .wav</ShortName>
-							<Path>SFX\Riff _D79FB2B7.wem</Path>
-						</File>
-						<File Id="824314592" Language="SFX">
-							<ShortName>Melodia.wav</ShortName>
-							<Path>SFX\Melodia_D79FB2B7.wem</Path>
+							<Path>SFX/door_Fx_close_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="675784008" Name="Batalla" ObjectPath="\Switches\Default Work Unit\switch_musica\Batalla"/>
+					</ActionSetSwitch>
 				</Event>
-				<Event Id="1766466901" Name="inicio_battle" ObjectPath="\Events\Default Work Unit\Generales\inicio_battle" DurationType="OneShot" DurationMin="26.400000" DurationMax="26.400000">
-					<IncludedMemoryFiles>
-						<File Id="75246854" Language="SFX">
-							<ShortName>Arpegio.wav</ShortName>
-							<Path>SFX\Arpegio_D79FB2B7.wem</Path>
-						</File>
-						<File Id="630600537" Language="SFX">
-							<ShortName>Riff .wav</ShortName>
-							<Path>SFX\Riff _D79FB2B7.wem</Path>
-						</File>
-						<File Id="824314592" Language="SFX">
-							<ShortName>Melodia.wav</ShortName>
-							<Path>SFX\Melodia_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
+				<Event Id="1766466901" Name="inicio_battle" ObjectPath="\Events\Default Work Unit\Generales\inicio_battle" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="675784008" Name="Batalla" ObjectPath="\Switches\Default Work Unit\switch_musica\Batalla"/>
+					</ActionSetSwitch>
 				</Event>
-				<Event Id="1373024549" Name="inicio_game" ObjectPath="\Events\Default Work Unit\Generales\inicio_game" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="1004681454" Language="SFX">
-							<ShortName>Main Theme Completo.wav</ShortName>
-							<Path>SFX\Main Theme Completo_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
+				<Event Id="1373024549" Name="inicio_game" ObjectPath="\Events\Default Work Unit\Generales\inicio_game" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2902310089" Name="Exploracion" ObjectPath="\Switches\Default Work Unit\switch_musica\Exploracion"/>
+					</ActionSetSwitch>
 				</Event>
-				<Event Id="880580374" Name="inicio_menu" ObjectPath="\Events\Default Work Unit\Generales\inicio_menu" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="1004681454" Language="SFX">
-							<ShortName>Main Theme Completo.wav</ShortName>
-							<Path>SFX\Main Theme Completo_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
+				<Event Id="880580374" Name="inicio_menu" ObjectPath="\Events\Default Work Unit\Generales\inicio_menu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2658298240" Name="Inicio" ObjectPath="\Switches\Default Work Unit\switch_musica\Inicio"/>
+					</ActionSetSwitch>
 				</Event>
 				<Event Id="194776941" Name="inicio_start" ObjectPath="\Events\Default Work Unit\Generales\inicio_start" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="218080424" Language="SFX">
+							<ShortName>Transition - Redemption-001.wav</ShortName>
+							<Path>SFX/Transition - Redemption-001_D79FB2B7.wem</Path>
+						</File>
 						<File Id="1004681454" Language="SFX">
 							<ShortName>Main Theme Completo.wav</ShortName>
-							<Path>SFX\Main Theme Completo_D79FB2B7.wem</Path>
+							<Path>SFX/Main Theme Completo_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -191,15 +169,15 @@
 					<IncludedMemoryFiles>
 						<File Id="62939478" Language="SFX">
 							<ShortName>monk_dash2.wav</ShortName>
-							<Path>SFX\monk_dash2_10C4C929.wem</Path>
+							<Path>SFX/monk_dash2_10C4C929.wem</Path>
 						</File>
 						<File Id="423832390" Language="SFX">
 							<ShortName>monk_dash.wav</ShortName>
-							<Path>SFX\monk_dash_10C4C929.wem</Path>
+							<Path>SFX/monk_dash_10C4C929.wem</Path>
 						</File>
 						<File Id="729802019" Language="SFX">
 							<ShortName>monk_dash3.wav</ShortName>
-							<Path>SFX\monk_dash3_10C4C929.wem</Path>
+							<Path>SFX/monk_dash3_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -208,15 +186,15 @@
 					<IncludedMemoryFiles>
 						<File Id="236766836" Language="SFX">
 							<ShortName>monk_distance-003.wav</ShortName>
-							<Path>SFX\monk_distance-003_10C4C929.wem</Path>
+							<Path>SFX/monk_distance-003_10C4C929.wem</Path>
 						</File>
 						<File Id="435700791" Language="SFX">
 							<ShortName>monk_distance-001.wav</ShortName>
-							<Path>SFX\monk_distance-001_10C4C929.wem</Path>
+							<Path>SFX/monk_distance-001_10C4C929.wem</Path>
 						</File>
 						<File Id="953620692" Language="SFX">
 							<ShortName>monk_distance-002.wav</ShortName>
-							<Path>SFX\monk_distance-002_10C4C929.wem</Path>
+							<Path>SFX/monk_distance-002_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -224,15 +202,15 @@
 					<IncludedMemoryFiles>
 						<File Id="82951474" Language="SFX">
 							<ShortName>Monje_damage-001.wav</ShortName>
-							<Path>SFX\Monje_damage-001_10C4C929.wem</Path>
+							<Path>SFX/Monje_damage-001_10C4C929.wem</Path>
 						</File>
 						<File Id="859675253" Language="SFX">
 							<ShortName>Monje_damage-002.wav</ShortName>
-							<Path>SFX\Monje_damage-002_10C4C929.wem</Path>
+							<Path>SFX/Monje_damage-002_10C4C929.wem</Path>
 						</File>
 						<File Id="905137215" Language="SFX">
 							<ShortName>Monje_damage-003.wav</ShortName>
-							<Path>SFX\Monje_damage-003_10C4C929.wem</Path>
+							<Path>SFX/Monje_damage-003_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -240,51 +218,51 @@
 					<IncludedMemoryFiles>
 						<File Id="15648755" Language="SFX">
 							<ShortName>monk_stepleft_end3.wav</ShortName>
-							<Path>SFX\monk_stepleft_end3_10C4C929.wem</Path>
+							<Path>SFX/monk_stepleft_end3_10C4C929.wem</Path>
 						</File>
 						<File Id="68538077" Language="SFX">
 							<ShortName>monk_stepright_end2.wav</ShortName>
-							<Path>SFX\monk_stepright_end2_10C4C929.wem</Path>
+							<Path>SFX/monk_stepright_end2_10C4C929.wem</Path>
 						</File>
 						<File Id="196463260" Language="SFX">
 							<ShortName>monk_stepright-002.wav</ShortName>
-							<Path>SFX\monk_stepright-002_10C4C929.wem</Path>
+							<Path>SFX/monk_stepright-002_10C4C929.wem</Path>
 						</File>
 						<File Id="274648691" Language="SFX">
 							<ShortName>monk_stepright-003.wav</ShortName>
-							<Path>SFX\monk_stepright-003_10C4C929.wem</Path>
+							<Path>SFX/monk_stepright-003_10C4C929.wem</Path>
 						</File>
 						<File Id="278355826" Language="SFX">
 							<ShortName>monk_stepleft-001.wav</ShortName>
-							<Path>SFX\monk_stepleft-001_10C4C929.wem</Path>
+							<Path>SFX/monk_stepleft-001_10C4C929.wem</Path>
 						</File>
 						<File Id="306806010" Language="SFX">
 							<ShortName>monk_stepleft_end1.wav</ShortName>
-							<Path>SFX\monk_stepleft_end1_10C4C929.wem</Path>
+							<Path>SFX/monk_stepleft_end1_10C4C929.wem</Path>
 						</File>
 						<File Id="516920478" Language="SFX">
 							<ShortName>monk_stepright_end3.wav</ShortName>
-							<Path>SFX\monk_stepright_end3_10C4C929.wem</Path>
+							<Path>SFX/monk_stepright_end3_10C4C929.wem</Path>
 						</File>
 						<File Id="638695364" Language="SFX">
 							<ShortName>monk_stepleft-003.wav</ShortName>
-							<Path>SFX\monk_stepleft-003_10C4C929.wem</Path>
+							<Path>SFX/monk_stepleft-003_10C4C929.wem</Path>
 						</File>
 						<File Id="805644031" Language="SFX">
 							<ShortName>monk_stepleft_end2.wav</ShortName>
-							<Path>SFX\monk_stepleft_end2_10C4C929.wem</Path>
+							<Path>SFX/monk_stepleft_end2_10C4C929.wem</Path>
 						</File>
 						<File Id="846189855" Language="SFX">
 							<ShortName>monk_stepleft-002.wav</ShortName>
-							<Path>SFX\monk_stepleft-002_10C4C929.wem</Path>
+							<Path>SFX/monk_stepleft-002_10C4C929.wem</Path>
 						</File>
 						<File Id="911376123" Language="SFX">
 							<ShortName>monk_stepright-001.wav</ShortName>
-							<Path>SFX\monk_stepright-001_10C4C929.wem</Path>
+							<Path>SFX/monk_stepright-001_10C4C929.wem</Path>
 						</File>
 						<File Id="970412414" Language="SFX">
 							<ShortName>monk_stepright_end1.wav</ShortName>
-							<Path>SFX\monk_stepright_end1_10C4C929.wem</Path>
+							<Path>SFX/monk_stepright_end1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -292,23 +270,23 @@
 					<IncludedMemoryFiles>
 						<File Id="359562049" Language="SFX">
 							<ShortName>monk_hitcomb_fx-002.wav</ShortName>
-							<Path>SFX\monk_hitcomb_fx-002_8A984C7A.wem</Path>
+							<Path>SFX/monk_hitcomb_fx-002_8A984C7A.wem</Path>
 						</File>
 						<File Id="417203932" Language="SFX">
 							<ShortName>monk_hitcomb_dx-003.wav</ShortName>
-							<Path>SFX\monk_hitcomb_dx-003_10C4C929.wem</Path>
+							<Path>SFX/monk_hitcomb_dx-003_10C4C929.wem</Path>
 						</File>
 						<File Id="436213662" Language="SFX">
 							<ShortName>monk_hitcomb_dx-001.wav</ShortName>
-							<Path>SFX\monk_hitcomb_dx-001_10C4C929.wem</Path>
+							<Path>SFX/monk_hitcomb_dx-001_10C4C929.wem</Path>
 						</File>
 						<File Id="548884856" Language="SFX">
 							<ShortName>monk_hitcomb_fx-001.wav</ShortName>
-							<Path>SFX\monk_hitcomb_fx-001_0BB3332C.wem</Path>
+							<Path>SFX/monk_hitcomb_fx-001_0BB3332C.wem</Path>
 						</File>
 						<File Id="740443677" Language="SFX">
 							<ShortName>monk_hitcomb_dx-002.wav</ShortName>
-							<Path>SFX\monk_hitcomb_dx-002_10C4C929.wem</Path>
+							<Path>SFX/monk_hitcomb_dx-002_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -316,27 +294,27 @@
 					<IncludedMemoryFiles>
 						<File Id="302502130" Language="SFX">
 							<ShortName>monk_hit_fx3.wav</ShortName>
-							<Path>SFX\monk_hit_fx3_FFC1ECBB.wem</Path>
+							<Path>SFX/monk_hit_fx3_FFC1ECBB.wem</Path>
 						</File>
 						<File Id="315565834" Language="SFX">
 							<ShortName>monk_hit_dx-002.wav</ShortName>
-							<Path>SFX\monk_hit_dx-002_10C4C929.wem</Path>
+							<Path>SFX/monk_hit_dx-002_10C4C929.wem</Path>
 						</File>
 						<File Id="444980386" Language="SFX">
 							<ShortName>monk_hit_fx2.wav</ShortName>
-							<Path>SFX\monk_hit_fx2_37F7B6C8.wem</Path>
+							<Path>SFX/monk_hit_fx2_37F7B6C8.wem</Path>
 						</File>
 						<File Id="597880745" Language="SFX">
 							<ShortName>monk_hit_fx.wav</ShortName>
-							<Path>SFX\monk_hit_fx_D68D9030.wem</Path>
+							<Path>SFX/monk_hit_fx_D68D9030.wem</Path>
 						</File>
 						<File Id="698268410" Language="SFX">
 							<ShortName>monk_hit_dx-003.wav</ShortName>
-							<Path>SFX\monk_hit_dx-003_10C4C929.wem</Path>
+							<Path>SFX/monk_hit_dx-003_10C4C929.wem</Path>
 						</File>
 						<File Id="718042823" Language="SFX">
 							<ShortName>monk_hit_dx-001.wav</ShortName>
-							<Path>SFX\monk_hit_dx-001_10C4C929.wem</Path>
+							<Path>SFX/monk_hit_dx-001_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -344,23 +322,23 @@
 					<IncludedMemoryFiles>
 						<File Id="24665574" Language="SFX">
 							<ShortName>Orco_Dx_attack-003.wav</ShortName>
-							<Path>SFX\Orco_Dx_attack-003_10C4C929.wem</Path>
+							<Path>SFX/Orco_Dx_attack-003_10C4C929.wem</Path>
 						</File>
 						<File Id="308800202" Language="SFX">
 							<ShortName>Orco_Fx_golpe-002.wav</ShortName>
-							<Path>SFX\Orco_Fx_golpe-002_10C4C929.wem</Path>
+							<Path>SFX/Orco_Fx_golpe-002_10C4C929.wem</Path>
 						</File>
 						<File Id="468469706" Language="SFX">
 							<ShortName>Orco_Fx_golpe-001.wav</ShortName>
-							<Path>SFX\Orco_Fx_golpe-001_10C4C929.wem</Path>
+							<Path>SFX/Orco_Fx_golpe-001_10C4C929.wem</Path>
 						</File>
 						<File Id="596316658" Language="SFX">
 							<ShortName>Orco_Dx_attack-002.wav</ShortName>
-							<Path>SFX\Orco_Dx_attack-002_10C4C929.wem</Path>
+							<Path>SFX/Orco_Dx_attack-002_10C4C929.wem</Path>
 						</File>
 						<File Id="647895068" Language="SFX">
 							<ShortName>Orco_Dx_attack-001.wav</ShortName>
-							<Path>SFX\Orco_Dx_attack-001_10C4C929.wem</Path>
+							<Path>SFX/Orco_Dx_attack-001_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -368,11 +346,11 @@
 					<IncludedMemoryFiles>
 						<File Id="413174192" Language="SFX">
 							<ShortName>Orco_Dx_Recibe_golpe-002.wav</ShortName>
-							<Path>SFX\Orco_Dx_Recibe_golpe-002_10C4C929.wem</Path>
+							<Path>SFX/Orco_Dx_Recibe_golpe-002_10C4C929.wem</Path>
 						</File>
 						<File Id="973310588" Language="SFX">
 							<ShortName>Orco_Dx_Recibe_golpe-001.wav</ShortName>
-							<Path>SFX\Orco_Dx_Recibe_golpe-001_10C4C929.wem</Path>
+							<Path>SFX/Orco_Dx_Recibe_golpe-001_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -380,35 +358,35 @@
 					<IncludedMemoryFiles>
 						<File Id="167962525" Language="SFX">
 							<ShortName>Orco_Dx_breathe_out-003.wav</ShortName>
-							<Path>SFX\Orco_Dx_breathe_out-003_10C4C929.wem</Path>
+							<Path>SFX/Orco_Dx_breathe_out-003_10C4C929.wem</Path>
 						</File>
 						<File Id="301788336" Language="SFX">
 							<ShortName>Orco_Dx_breathe-001.wav</ShortName>
-							<Path>SFX\Orco_Dx_breathe-001_86650C2D.wem</Path>
+							<Path>SFX/Orco_Dx_breathe-001_86650C2D.wem</Path>
 						</File>
 						<File Id="469552280" Language="SFX">
 							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
-							<Path>SFX\Orco_Dx_idle(con_efecto)_93198855.wem</Path>
+							<Path>SFX/Orco_Dx_idle(con_efecto)_93198855.wem</Path>
 						</File>
 						<File Id="516182575" Language="SFX">
 							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
-							<Path>SFX\Orco_Dx_idle(con_efecto)_D48924DF.wem</Path>
+							<Path>SFX/Orco_Dx_idle(con_efecto)_D48924DF.wem</Path>
 						</File>
 						<File Id="551509563" Language="SFX">
 							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
-							<Path>SFX\Orco_Dx_idle(con_efecto)_3FF6248B.wem</Path>
+							<Path>SFX/Orco_Dx_idle(con_efecto)_3FF6248B.wem</Path>
 						</File>
 						<File Id="581925326" Language="SFX">
 							<ShortName>Orco_Dx_breathe_out-001.wav</ShortName>
-							<Path>SFX\Orco_Dx_breathe_out-001_218A0318.wem</Path>
+							<Path>SFX/Orco_Dx_breathe_out-001_218A0318.wem</Path>
 						</File>
 						<File Id="693104905" Language="SFX">
 							<ShortName>Orco_Dx_breathe-003.wav</ShortName>
-							<Path>SFX\Orco_Dx_breathe-003_96444D29.wem</Path>
+							<Path>SFX/Orco_Dx_breathe-003_96444D29.wem</Path>
 						</File>
 						<File Id="715023574" Language="SFX">
 							<ShortName>Orco_Dx_idle(con_efecto).wav</ShortName>
-							<Path>SFX\Orco_Dx_idle(con_efecto)_54CB8DC3.wem</Path>
+							<Path>SFX/Orco_Dx_idle(con_efecto)_54CB8DC3.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -416,11 +394,11 @@
 					<IncludedMemoryFiles>
 						<File Id="413174192" Language="SFX">
 							<ShortName>Orco_Dx_Recibe_golpe-002.wav</ShortName>
-							<Path>SFX\Orco_Dx_Recibe_golpe-002_10C4C929.wem</Path>
+							<Path>SFX/Orco_Dx_Recibe_golpe-002_10C4C929.wem</Path>
 						</File>
 						<File Id="973310588" Language="SFX">
 							<ShortName>Orco_Dx_Recibe_golpe-001.wav</ShortName>
-							<Path>SFX\Orco_Dx_Recibe_golpe-001_10C4C929.wem</Path>
+							<Path>SFX/Orco_Dx_Recibe_golpe-001_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -428,27 +406,27 @@
 					<IncludedMemoryFiles>
 						<File Id="241520495" Language="SFX">
 							<ShortName>Orco_Fx_Pasoderecha-002.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoderecha-002_5881689F.wem</Path>
+							<Path>SFX/Orco_Fx_Pasoderecha-002_5881689F.wem</Path>
 						</File>
 						<File Id="306534468" Language="SFX">
 							<ShortName>Orco_Fx_Pasoizquierda-001.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoizquierda-001_09FD2DE6.wem</Path>
+							<Path>SFX/Orco_Fx_Pasoizquierda-001_09FD2DE6.wem</Path>
 						</File>
 						<File Id="341149171" Language="SFX">
 							<ShortName>Orco_Fx_Pasoizquierda-002.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoizquierda-002_8DE64D6A.wem</Path>
+							<Path>SFX/Orco_Fx_Pasoizquierda-002_8DE64D6A.wem</Path>
 						</File>
 						<File Id="664099092" Language="SFX">
 							<ShortName>Orco_Fx_Pasoderecha-003.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoderecha-003_36EFCB91.wem</Path>
+							<Path>SFX/Orco_Fx_Pasoderecha-003_36EFCB91.wem</Path>
 						</File>
 						<File Id="999109316" Language="SFX">
 							<ShortName>Orco_Fx_Pasoizquierda-003.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoizquierda-003_25EC416D.wem</Path>
+							<Path>SFX/Orco_Fx_Pasoizquierda-003_25EC416D.wem</Path>
 						</File>
 						<File Id="1044057678" Language="SFX">
 							<ShortName>Orco_Fx_Pasoderecha-001.wav</ShortName>
-							<Path>SFX\Orco_Fx_Pasoderecha-001_E45FCE47.wem</Path>
+							<Path>SFX/Orco_Fx_Pasoderecha-001_E45FCE47.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -456,15 +434,15 @@
 					<IncludedMemoryFiles>
 						<File Id="385097772" Language="SFX">
 							<ShortName>open_loot-001.wav</ShortName>
-							<Path>SFX\open_loot-001_10C4C929.wem</Path>
+							<Path>SFX/open_loot-001_10C4C929.wem</Path>
 						</File>
 						<File Id="464573880" Language="SFX">
 							<ShortName>open_loot-003.wav</ShortName>
-							<Path>SFX\open_loot-003_10C4C929.wem</Path>
+							<Path>SFX/open_loot-003_10C4C929.wem</Path>
 						</File>
 						<File Id="670274005" Language="SFX">
 							<ShortName>open_loot-002.wav</ShortName>
-							<Path>SFX\open_loot-002_10C4C929.wem</Path>
+							<Path>SFX/open_loot-002_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -482,7 +460,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1019961496" Language="SFX">
 							<ShortName>Demon_Dx_attackcombo.wav</ShortName>
-							<Path>SFX\Demon_Dx_attackcombo_10C4C929.wem</Path>
+							<Path>SFX/Demon_Dx_attackcombo_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -490,15 +468,15 @@
 					<IncludedMemoryFiles>
 						<File Id="7638481" Language="SFX">
 							<ShortName>Demon_Dx_dead3.wav</ShortName>
-							<Path>SFX\Demon_Dx_dead3_10C4C929.wem</Path>
+							<Path>SFX/Demon_Dx_dead3_10C4C929.wem</Path>
 						</File>
 						<File Id="313702848" Language="SFX">
 							<ShortName>Demon_Dx_dead2.wav</ShortName>
-							<Path>SFX\Demon_Dx_dead2_10C4C929.wem</Path>
+							<Path>SFX/Demon_Dx_dead2_10C4C929.wem</Path>
 						</File>
 						<File Id="635388004" Language="SFX">
 							<ShortName>Demon_Dx_dead1.wav</ShortName>
-							<Path>SFX\Demon_Dx_dead1_10C4C929.wem</Path>
+							<Path>SFX/Demon_Dx_dead1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -506,15 +484,15 @@
 					<IncludedMemoryFiles>
 						<File Id="295466494" Language="SFX">
 							<ShortName>Demon_Dx_iddle2.wav</ShortName>
-							<Path>SFX\Demon_Dx_iddle2_10C4C929.wem</Path>
+							<Path>SFX/Demon_Dx_iddle2_10C4C929.wem</Path>
 						</File>
 						<File Id="920448570" Language="SFX">
 							<ShortName>Demon_Dx_iddle3.wav</ShortName>
-							<Path>SFX\Demon_Dx_iddle3_10C4C929.wem</Path>
+							<Path>SFX/Demon_Dx_iddle3_10C4C929.wem</Path>
 						</File>
 						<File Id="1028601640" Language="SFX">
 							<ShortName>Demon_Dx_iddle1.wav</ShortName>
-							<Path>SFX\Demon_Dx_iddle1_BC723C37.wem</Path>
+							<Path>SFX/Demon_Dx_iddle1_BC723C37.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -522,23 +500,23 @@
 					<IncludedMemoryFiles>
 						<File Id="422172478" Language="SFX">
 							<ShortName>Demon_Fx_movement.wav</ShortName>
-							<Path>SFX\Demon_Fx_movement_9E851DDF.wem</Path>
+							<Path>SFX/Demon_Fx_movement_9E851DDF.wem</Path>
 						</File>
 						<File Id="618328925" Language="SFX">
 							<ShortName>Demon_Fx_movement.wav</ShortName>
-							<Path>SFX\Demon_Fx_movement_A9BA8499.wem</Path>
+							<Path>SFX/Demon_Fx_movement_A9BA8499.wem</Path>
 						</File>
 						<File Id="629121119" Language="SFX">
 							<ShortName>Demon_Fx_movement.wav</ShortName>
-							<Path>SFX\Demon_Fx_movement_B67F7D87.wem</Path>
+							<Path>SFX/Demon_Fx_movement_B67F7D87.wem</Path>
 						</File>
 						<File Id="654081637" Language="SFX">
 							<ShortName>Demon_Fx_movement.wav</ShortName>
-							<Path>SFX\Demon_Fx_movement_A30516B3.wem</Path>
+							<Path>SFX/Demon_Fx_movement_A30516B3.wem</Path>
 						</File>
 						<File Id="706253243" Language="SFX">
 							<ShortName>Demon_Fx_movement.wav</ShortName>
-							<Path>SFX\Demon_Fx_movement_81B2B9B1.wem</Path>
+							<Path>SFX/Demon_Fx_movement_81B2B9B1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -569,7 +547,7 @@
 					<IncludedMemoryFiles>
 						<File Id="85627219" Language="SFX">
 							<ShortName>Fantasy_Game_Organic_Magic_Accept_Quest_Drum_Impact_1.wav</ShortName>
-							<Path>SFX\Fantasy_Game_Organic_Magic_Accept_Quest_Drum_Impact_1_B4490EAD.wem</Path>
+							<Path>SFX/Fantasy_Game_Organic_Magic_Accept_Quest_Drum_Impact_1_B4490EAD.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -577,11 +555,11 @@
 					<IncludedMemoryFiles>
 						<File Id="210679115" Language="SFX">
 							<ShortName>open_loot_card-002.wav</ShortName>
-							<Path>SFX\open_loot_card-002_10C4C929.wem</Path>
+							<Path>SFX/open_loot_card-002_10C4C929.wem</Path>
 						</File>
 						<File Id="636030852" Language="SFX">
 							<ShortName>open_loot_card-001.wav</ShortName>
-							<Path>SFX\open_loot_card-001_10C4C929.wem</Path>
+							<Path>SFX/open_loot_card-001_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -589,11 +567,11 @@
 					<IncludedMemoryFiles>
 						<File Id="631957275" Language="SFX">
 							<ShortName>UI_SoundPack11_Error_v3.wav</ShortName>
-							<Path>SFX\UI_SoundPack11_Error_v3_E08D20B3.wem</Path>
+							<Path>SFX/UI_SoundPack11_Error_v3_E08D20B3.wem</Path>
 						</File>
 						<File Id="1066794211" Language="SFX">
 							<ShortName>switch_on_042.wav</ShortName>
-							<Path>SFX\switch_on_042_10C4C929.wem</Path>
+							<Path>SFX/switch_on_042_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -601,7 +579,7 @@
 					<IncludedMemoryFiles>
 						<File Id="222668660" Language="SFX">
 							<ShortName>Fantasy_Game_Distant_Soft_Rumble_2.wav</ShortName>
-							<Path>SFX\Fantasy_Game_Distant_Soft_Rumble_2_757475C2.wem</Path>
+							<Path>SFX/Fantasy_Game_Distant_Soft_Rumble_2_757475C2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -609,7 +587,7 @@
 					<IncludedMemoryFiles>
 						<File Id="928770830" Language="SFX">
 							<ShortName>vintage_radio_button_006.wav</ShortName>
-							<Path>SFX\vintage_radio_button_006_A03D8689.wem</Path>
+							<Path>SFX/vintage_radio_button_006_A03D8689.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

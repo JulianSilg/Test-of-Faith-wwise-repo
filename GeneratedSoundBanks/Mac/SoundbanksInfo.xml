@@ -11,10 +11,13 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1971427227">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3656795179">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="2582501215" Name="rtpc_mastervolume" ObjectPath="\Game Parameters\Default Work Unit\rtpc_mastervolume"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="3092587489" Name="pausa" ObjectPath="\States\Default Work Unit\pausa" GUID="{E11E6BEB-9721-49C2-B835-2BBBCBA255F1}">
 					<States>
@@ -25,12 +28,12 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX" Hash="558980681">
+		<SoundBank Id="4072029455" Language="SFX" Hash="4068524557">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2807435833" Name="aparece_loot" ObjectPath="\Events\Default Work Unit\Generales\aparece_loot" DurationType="Infinite">
+				<Event Id="2807435833" Name="aparece_loot" ObjectPath="\Events\Default Work Unit\Generales\aparece_loot" DurationType="OneShot" DurationMin="6.131387" DurationMax="6.255961">
 					<IncludedMemoryFiles>
 						<File Id="241286790" Language="SFX">
 							<ShortName>aparece loot_music.wav</ShortName>
@@ -59,7 +62,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3556884147" Name="boss_life" ObjectPath="\Events\Default Work Unit\RTPCs\boss_life" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1374521763" Name="boss_step" ObjectPath="\Events\Default Work Unit\Boss\boss_step" DurationType="OneShot" DurationMin="0.001176" DurationMax="1.176723">
+				<Event Id="1374521763" Name="boss_step" ObjectPath="\Events\Default Work Unit\Boss\boss_step" DurationType="OneShot" DurationMin="0.001176" DurationMax="1.459303">
 					<IncludedMemoryFiles>
 						<File Id="9471008" Language="SFX">
 							<ShortName>Foley_ropa_final-001.wav</ShortName>
@@ -123,60 +126,38 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2409810141" Name="enter_room" ObjectPath="\Events\Default Work Unit\Generales\enter_room" DurationType="OneShot" DurationMin="26.400000" DurationMax="26.400000">
+				<Event Id="2409810141" Name="enter_room" ObjectPath="\Events\Default Work Unit\Generales\enter_room" DurationType="OneShot" DurationMin="1.750750" DurationMax="1.750750">
 					<IncludedMemoryFiles>
-						<File Id="75246854" Language="SFX">
-							<ShortName>Arpegio.wav</ShortName>
-							<Path>SFX/Arpegio_D79FB2B7.wem</Path>
-						</File>
 						<File Id="177055058" Language="SFX">
 							<ShortName>door_Fx_close.wav</ShortName>
 							<Path>SFX/door_Fx_close_10C4C929.wem</Path>
 						</File>
-						<File Id="630600537" Language="SFX">
-							<ShortName>Riff .wav</ShortName>
-							<Path>SFX/Riff _D79FB2B7.wem</Path>
-						</File>
-						<File Id="824314592" Language="SFX">
-							<ShortName>Melodia.wav</ShortName>
-							<Path>SFX/Melodia_D79FB2B7.wem</Path>
-						</File>
 					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="675784008" Name="Batalla" ObjectPath="\Switches\Default Work Unit\switch_musica\Batalla"/>
+					</ActionSetSwitch>
 				</Event>
-				<Event Id="1766466901" Name="inicio_battle" ObjectPath="\Events\Default Work Unit\Generales\inicio_battle" DurationType="OneShot" DurationMin="26.400000" DurationMax="26.400000">
-					<IncludedMemoryFiles>
-						<File Id="75246854" Language="SFX">
-							<ShortName>Arpegio.wav</ShortName>
-							<Path>SFX/Arpegio_D79FB2B7.wem</Path>
-						</File>
-						<File Id="630600537" Language="SFX">
-							<ShortName>Riff .wav</ShortName>
-							<Path>SFX/Riff _D79FB2B7.wem</Path>
-						</File>
-						<File Id="824314592" Language="SFX">
-							<ShortName>Melodia.wav</ShortName>
-							<Path>SFX/Melodia_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
+				<Event Id="1766466901" Name="inicio_battle" ObjectPath="\Events\Default Work Unit\Generales\inicio_battle" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="675784008" Name="Batalla" ObjectPath="\Switches\Default Work Unit\switch_musica\Batalla"/>
+					</ActionSetSwitch>
 				</Event>
-				<Event Id="1373024549" Name="inicio_game" ObjectPath="\Events\Default Work Unit\Generales\inicio_game" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="1004681454" Language="SFX">
-							<ShortName>Main Theme Completo.wav</ShortName>
-							<Path>SFX/Main Theme Completo_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
+				<Event Id="1373024549" Name="inicio_game" ObjectPath="\Events\Default Work Unit\Generales\inicio_game" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2902310089" Name="Exploracion" ObjectPath="\Switches\Default Work Unit\switch_musica\Exploracion"/>
+					</ActionSetSwitch>
 				</Event>
-				<Event Id="880580374" Name="inicio_menu" ObjectPath="\Events\Default Work Unit\Generales\inicio_menu" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="1004681454" Language="SFX">
-							<ShortName>Main Theme Completo.wav</ShortName>
-							<Path>SFX/Main Theme Completo_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
+				<Event Id="880580374" Name="inicio_menu" ObjectPath="\Events\Default Work Unit\Generales\inicio_menu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2658298240" Name="Inicio" ObjectPath="\Switches\Default Work Unit\switch_musica\Inicio"/>
+					</ActionSetSwitch>
 				</Event>
 				<Event Id="194776941" Name="inicio_start" ObjectPath="\Events\Default Work Unit\Generales\inicio_start" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="218080424" Language="SFX">
+							<ShortName>Transition - Redemption-001.wav</ShortName>
+							<Path>SFX/Transition - Redemption-001_D79FB2B7.wem</Path>
+						</File>
 						<File Id="1004681454" Language="SFX">
 							<ShortName>Main Theme Completo.wav</ShortName>
 							<Path>SFX/Main Theme Completo_D79FB2B7.wem</Path>

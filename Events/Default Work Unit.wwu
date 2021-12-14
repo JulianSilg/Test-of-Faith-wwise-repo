@@ -8,9 +8,12 @@
 						<Event Name="inicio_menu" ID="{38902BF4-A85A-489E-B211-250DA22F618C}">
 							<ChildrenList>
 								<Action Name="" ID="{11F0EA25-54C9-44B7-902C-64C08C6FE1DC}" ShortID="297170982">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Main" ID="{C00F89C4-FE97-46B7-8196-265F53C30469}" WorkUnitID="{202EAE8E-ED00-44F0-85C0-478448DB41C8}"/>
+											<ObjectRef Name="Inicio" ID="{7930A091-93E7-4B61-98D8-B8F78E856F7C}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -30,9 +33,12 @@
 						<Event Name="inicio_game" ID="{7FFAB5A4-67EA-48D3-AD8C-F17EC405DB3C}">
 							<ChildrenList>
 								<Action Name="" ID="{7E9DC5BD-9581-4CC5-A542-3F4C2C258444}" ShortID="336653904">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Main" ID="{C00F89C4-FE97-46B7-8196-265F53C30469}" WorkUnitID="{202EAE8E-ED00-44F0-85C0-478448DB41C8}"/>
+											<ObjectRef Name="Exploracion" ID="{FF1AAD71-8647-4738-A213-70196F4EE964}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -76,9 +82,12 @@
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{81CE4FF3-513A-45BD-8B07-14CDE8ADE85C}" ShortID="168065247">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Battle" ID="{D79411AC-44E3-4BE1-A5BF-45B9FEB3B23B}" WorkUnitID="{202EAE8E-ED00-44F0-85C0-478448DB41C8}"/>
+											<ObjectRef Name="Batalla" ID="{DB82155E-6036-4952-B4E8-44B2DD96D48B}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -135,9 +144,12 @@
 						<Event Name="inicio_battle" ID="{545F7777-6F5E-4F00-A865-AA40F29609F3}">
 							<ChildrenList>
 								<Action Name="" ID="{6C2A7A4E-500D-45F7-99B9-90AA7687A454}" ShortID="593697293">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Battle" ID="{D79411AC-44E3-4BE1-A5BF-45B9FEB3B23B}" WorkUnitID="{202EAE8E-ED00-44F0-85C0-478448DB41C8}"/>
+											<ObjectRef Name="Batalla" ID="{DB82155E-6036-4952-B4E8-44B2DD96D48B}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
