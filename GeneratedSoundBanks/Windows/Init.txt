@@ -20,9 +20,6 @@ State	ID	Name	State Group			Notes
 	748895195	None	pausa			
 	2340700472	pausa_out	pausa			
 
-Custom State	ID	Name	State Group	Owner		Notes
-	475992437	pausa_in	pausa	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
-
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2582501215	rtpc_mastervolume			\Default Work Unit\rtpc_mastervolume	
 

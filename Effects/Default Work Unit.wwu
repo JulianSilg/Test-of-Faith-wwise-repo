@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6F4139CA-7434-45A9-8D98-E9318B4ADE16}" SchemaVersion="103">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{6F4139CA-7434-45A9-8D98-E9318B4ADE16}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6F4139CA-7434-45A9-8D98-E9318B4ADE16}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Delay" ID="{6A043090-1A21-4C26-A8BC-A2FD5E861A6F}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="1"/>
+						<Property Name="Feedback" Type="Real32" Value="44"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Wwise_Flanger" ID="{D58D759A-DBC9-4E0F-B8EC-4E5E4CB8C976}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="18.6"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

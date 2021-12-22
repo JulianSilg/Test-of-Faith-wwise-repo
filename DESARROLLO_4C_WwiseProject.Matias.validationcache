@@ -2,9 +2,9 @@
 <ValidationCache Version="1" SchemaVersion="103">
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Virtual Acoustics\Default Work Unit.wwu" DateLow="1635952611" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Triggers\Default Work Unit.wwu" DateLow="1635952611" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Switches\Default Work Unit.wwu" DateLow="1637265272" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\States\Default Work Unit.wwu" DateLow="1636743937" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1637422350" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Switches\Default Work Unit.wwu" DateLow="1637714798" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\States\Default Work Unit.wwu" DateLow="1637448050" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1637714798" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\SoundBanks\Default Work Unit.wwu" DateLow="1636317380" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Queries\Factory Queries.wwu" DateLow="1635942136" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Queries\Default Work Unit.wwu" DateLow="1635952611" DateHigh="0"/>
@@ -13,28 +13,28 @@
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Modulators\Default Work Unit.wwu" DateLow="1635952611" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Mixing Sessions\Default Work Unit.wwu" DateLow="1636308157" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Metadata\Default Work Unit.wwu" DateLow="1635952611" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1636743937" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1637264311" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Game Parameters\Default Work Unit.wwu" DateLow="1637264311" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Events\Default Work Unit.wwu" DateLow="1637422805" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1637714798" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1639668049" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Game Parameters\Default Work Unit.wwu" DateLow="1637714798" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Events\Default Work Unit.wwu" DateLow="1639668048" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Effects\Factory Effects.wwu" DateLow="1635942136" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Effects\Default Work Unit.wwu" DateLow="1635952611" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1635952611" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\DESARROLLO_4C_WwiseProject.wproj" DateLow="1637242684" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\DESARROLLO_4C_WwiseProject.Matias.wsettings" DateLow="1637425309" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\DESARROLLO_4C_WwiseProject.wproj" DateLow="1637538474" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\DESARROLLO_4C_WwiseProject.Matias.wsettings" DateLow="1639691818" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1635942136" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Conversion Settings\Default Work Unit.wwu" DateLow="1635952611" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Control Surface Sessions\Default Work Unit.wwu" DateLow="1635953643" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Audio Devices\Default Work Unit.wwu" DateLow="1635952611" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Attenuations\Default Work Unit.wwu" DateLow="1635952611" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Actor-Mixer Hierarchy\Orco.wwu" DateLow="1636317126" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Actor-Mixer Hierarchy\Monje.wwu" DateLow="1637422350" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Actor-Mixer Hierarchy\Interfaz.wwu" DateLow="1637422350" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Actor-Mixer Hierarchy\Generales.wwu" DateLow="1637422350" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Actor-Mixer Hierarchy\Enemigos.wwu" DateLow="1637422350" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Actor-Mixer Hierarchy\Monje.wwu" DateLow="1637454651" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Actor-Mixer Hierarchy\Interfaz.wwu" DateLow="1639668042" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Actor-Mixer Hierarchy\Generales.wwu" DateLow="1637773358" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Actor-Mixer Hierarchy\Enemigos.wwu" DateLow="1637614932" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Actor-Mixer Hierarchy\Demonio.wwu" DateLow="1636308072" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1637422350" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Actor-Mixer Hierarchy\Boss.wwu" DateLow="1637422350" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Matias\Documents\GitHub\Test-of-Faith-wwise-repo\Actor-Mixer Hierarchy\Boss.wwu" DateLow="1637714798" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1635952611" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1635952611" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Matias\Desktop\JUEGO A DESARROLLAR\Proyecto de Wwise\DESARROLLO_4C_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1635952611" DateHigh="0"/>

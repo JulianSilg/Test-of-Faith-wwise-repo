@@ -9,6 +9,7 @@
 						<Switch Name="Batalla" ID="{DB82155E-6036-4952-B4E8-44B2DD96D48B}"/>
 						<Switch Name="Inicio" ID="{7930A091-93E7-4B61-98D8-B8F78E856F7C}"/>
 						<Switch Name="Boss" ID="{69F8139F-6049-4633-B5C8-979F6A9BC54E}"/>
+						<Switch Name="Game_over" ID="{8A4ACFD0-EFFC-414C-AA30-17A56BBB002C}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Boss_vida" ID="{D8E58186-1F97-4018-A2FB-A2488020B48B}">

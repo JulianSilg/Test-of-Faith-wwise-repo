@@ -24,7 +24,7 @@
 								<Action Name="" ID="{E28AB872-50B9-47B8-A478-0AE295B5EDC4}" ShortID="852089289">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Main" ID="{C00F89C4-FE97-46B7-8196-265F53C30469}" WorkUnitID="{202EAE8E-ED00-44F0-85C0-478448DB41C8}"/>
+											<ObjectRef Name="Music Switch" ID="{87F301E1-47A1-4CAE-BC64-61C2341E85B2}" WorkUnitID="{202EAE8E-ED00-44F0-85C0-478448DB41C8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -81,16 +81,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{81CE4FF3-513A-45BD-8B07-14CDE8ADE85C}" ShortID="168065247">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="23"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Batalla" ID="{DB82155E-6036-4952-B4E8-44B2DD96D48B}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="clear_room" ID="{434B48B5-9ACE-4912-BCEA-D12B3A5E726F}">
@@ -99,6 +89,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="door_open" ID="{180198D4-474C-4271-B95E-A1D69149FB4D}" WorkUnitID="{E79F30B8-5A73-4D15-86F5-57710240CE9D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F0056EE7-E9F8-4441-8D90-40D1EEED98EA}" ShortID="947796351">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Exploracion" ID="{FF1AAD71-8647-4738-A213-70196F4EE964}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -150,6 +150,20 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Batalla" ID="{DB82155E-6036-4952-B4E8-44B2DD96D48B}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="enter_boss" ID="{DB1E8591-21C6-48C0-BDCA-365EF6459B9D}">
+							<ChildrenList>
+								<Action Name="" ID="{C1C71743-556B-4A02-B7FA-8710BD39682B}" ShortID="492118263">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss" ID="{69F8139F-6049-4633-B5C8-979F6A9BC54E}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -296,7 +310,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="monk_die" ID="{EC493BE3-3DAC-452E-8551-402CC4BAC6AD}"/>
+						<Event Name="monk_die" ID="{EC493BE3-3DAC-452E-8551-402CC4BAC6AD}">
+							<ChildrenList>
+								<Action Name="" ID="{429C8F53-22F2-4B94-A0C4-F0F6503A9DE7}" ShortID="772962133">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Game_over" ID="{8A4ACFD0-EFFC-414C-AA30-17A56BBB002C}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemigos" ID="{16D5724A-7E19-445D-9E16-F410367BFDA9}" ShortID="641272020">
@@ -512,69 +539,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="RTPCs" ID="{60D97CED-7C53-4942-86A7-BEFEBA1CA27D}" ShortID="304006739">
-					<ChildrenList>
-						<Event Name="rtpc_life" ID="{34713213-459E-4058-94F6-26934ED4A1A4}"/>
-						<Event Name="rtpc_mastervolume" ID="{74C0E9AD-8CFE-4EE3-8DB1-90C721C57E9C}"/>
-						<Event Name="boss_life" ID="{334BCC7A-B7B7-42EA-8692-5509415458F8}"/>
-					</ChildrenList>
-				</Folder>
-				<Event Name="Set_Switch_Exploracion" ID="{944A4CD4-7965-476D-A148-C1A46D1B2C65}">
-					<ChildrenList>
-						<Action Name="" ID="{F496D42A-5D96-4DF9-A651-75E10A439997}" ShortID="464322544">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Exploracion" ID="{FF1AAD71-8647-4738-A213-70196F4EE964}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Set_Switch_Batalla" ID="{568D6FF9-C677-48BE-8105-600851C2B37C}">
-					<ChildrenList>
-						<Action Name="" ID="{2B09B6CE-E422-4DC7-A026-C4AD3ED76E26}" ShortID="913284578">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Batalla" ID="{DB82155E-6036-4952-B4E8-44B2DD96D48B}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Set_Switch_Inicio" ID="{B65B93A0-A9B6-4201-8CC6-9AFFB30ED93E}">
-					<ChildrenList>
-						<Action Name="" ID="{50F86DF3-75E9-4456-AC63-51BE4B502C5E}" ShortID="605481640">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Inicio" ID="{7930A091-93E7-4B61-98D8-B8F78E856F7C}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Set_Switch_Boss" ID="{89BF2280-9884-4EF1-B62E-725E9AAB5648}">
-					<ChildrenList>
-						<Action Name="" ID="{BFB063ED-D69B-47F5-814C-3B206CDD494E}" ShortID="233832714">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Boss" ID="{69F8139F-6049-4633-B5C8-979F6A9BC54E}" WorkUnitID="{3F6170E3-52E1-434E-8991-1EF5E0405D9E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
